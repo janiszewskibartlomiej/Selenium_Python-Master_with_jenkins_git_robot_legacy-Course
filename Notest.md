@@ -1,7 +1,8 @@
 ```python
 ####1. PIP
 
-pip install -U nazwa_biblioteki   > instaluje jezeli nie ma juz zaintalowanej bioblioteki a jezeli jest juz zaintalowana to upgrade ta biblioteke
+pip install -U nazwa_biblioteki   > instaluje jezeli nie ma juz zaintalowanej bioblioteki 
+a jezeli jest juz zaintalowana to upgrade ta biblioteke
  
 pip list >  pokazuje wszytskie dostepne/zainstalowane biblioteki
 
@@ -28,4 +29,7 @@ multiple attributes [OR] > FB login page > //input[@name='email' or @aria-label=
 multiple attributes [AND] > //select[@name='birthday_day' and @title='Dzień']
 use * zamiast nazwy tagow lub nazw atrybutów > //*[@*='birthday_day' and @*='Dzień']  natomiast trzeba z tym uważaponiewaz może być parę wyników.
 using innertext trzeba używać kompletnego tekstu słowo klucz = text() >  FB rejestracja > //div[text()='Zarejestruj się.']
+using partial innertext - składnia jest trochę inna > FB rejestracja > //div[contains(text(),'się.')]  dla mie jest to funkcja o nazwie contains ktora przyjmuje 2 parametry > typ szukany i wartosć
+partial value of attribute FB login > //input[contains(@type,'word')]
+lokalizacja po parent > //table[@role='presentation']/tbody/tr[2]/td[1]/input  (dugi elemnt to normalnie 2)
 ```
