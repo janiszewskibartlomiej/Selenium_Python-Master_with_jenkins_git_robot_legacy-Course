@@ -13,13 +13,13 @@ id, name, class name, css, xpath, link, REgEx
 
 ####3. CSS Locator
 
-id > #email or input#email
-class > .inputtext or input.inputtext
-attribute any e.g. 'type' >[type='email'] or with <tag> input[id='email']
-łączone e.g. id + attribute> #pass[type='password']
-tag + id + attribute > input#pass[type='password']
-class + attribute .inputtext[type='email']
-tag + class + attribute input.inputtext[type='email']
+* id > #email or input#email
+* class > .inputtext or input.inputtext
+* attribute any e.g. 'type' >[type='email'] or with <tag> input[id='email']
+* łączone e.g. id + attribute> #pass[type='password']
+* tag + id + attribute > input#pass[type='password']
+* class + attribute .inputtext[type='email']
+* tag + class + attribute input.inputtext[type='email']
 
 ####4. XPath Locators
 zaczynamy zawsze od //
