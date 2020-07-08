@@ -20,4 +20,12 @@ tag + id + attribute > input#pass[type='password']
 class + attribute .inputtext[type='email']
 tag + class + attribute input.inputtext[type='email']
 
+####4. XPath Locators
+zaczynamy zawsze od //
+single attribute > //tag_name[@atrrybute_name='value_attribute']
+przykład > //input[@type='submit']
+multiple attributes [OR] > FB login page > //input[@name='email' or @aria-label="Adres e-mail lub numer telefonu"]
+multiple attributes [AND] > //select[@name='birthday_day' and @title='Dzień']
+use * zamiast nazwy tagow lub nazw atrybutów > //*[@*='birthday_day' and @*='Dzień']  natomiast trzeba z tym uważaponiewaz może być parę wyników.
+using innertext trzeba używać kompletnego tekstu słowo klucz = text() >  FB rejestracja > //div[text()='Zarejestruj się.']
 ```
