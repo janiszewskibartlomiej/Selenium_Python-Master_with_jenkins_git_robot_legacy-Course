@@ -1,17 +1,17 @@
 ```python
-####1. PIP
+#### 1. PIP
 
 pip install -U nazwa_biblioteki   > instaluje jezeli nie ma juz zaintalowanej bioblioteki 
 a jezeli jest juz zaintalowana to upgrade ta biblioteke
  
 pip list >  pokazuje wszytskie dostepne/zainstalowane biblioteki
 
-####2. Locators
+#### 2. Locators
 
 id, name, class name, css, xpath, link, REgEx
 
 
-####3. CSS Locator
+#### 3. CSS Locator
 
 * id > #email or input#email
 * class > .inputtext or input.inputtext
@@ -21,7 +21,7 @@ id, name, class name, css, xpath, link, REgEx
 * class + attribute .inputtext[type='email']
 * tag + class + attribute input.inputtext[type='email']
 
-####4. XPath Locators
+#### 4. XPath Locators
 * zaczynamy zawsze od //
 * single attribute > //tag_name[@atrrybute_name='value_attribute']
 * przykład > //input[@type='submit']
@@ -39,5 +39,8 @@ id, name, class name, css, xpath, link, REgEx
 * łączenie różnych metod > //input[@id='pass']/parent::td/precending-sibling::td/input
  przykłąd FB rej > //div[@class='_5dbb']/parent::div/preceding-sibling::div/div
 
-
+#### 5. bibliotek faker do generowania danych personlanych 
+ from faker import Faker
+ 
+ 
 ```
