@@ -45,5 +45,14 @@ id, name, class name, css, xpath, link, REgEx
 #### 6. range od 10 do 1 - decrement
     for i in range(10,0, -1)
        print(i)
+       
+#### 7. funcje wbudowane
+
+lista.insert(index, "cos do dodania" )
+lista[index] = "cos do dodnia"
+lista.remove(55) >> usunie pierwsza napodkna cyfre 55 - tylko pierwsza
+lista.count(szukanyWartość)
+lista.index(szukanaWartość)
+ 
  
 ```
