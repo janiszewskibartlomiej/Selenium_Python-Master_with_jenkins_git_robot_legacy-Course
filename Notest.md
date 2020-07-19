@@ -54,5 +54,8 @@ lista.remove(55) >> usunie pierwsza napodkna cyfre 55 - tylko pierwsza
 lista.count(szukanyWartość)
 lista.index(szukanaWartość)
  
+#### 8. Konstruktor nic ni emoze zwracać
+
+
  
 ```
