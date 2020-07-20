@@ -128,5 +128,16 @@ print(f.tell())
 # printing 
 print(f.readline().decode('utf-8')) 
 
+ #### 10. configuration file:
  
+ Config.cfg
+ [DEV]
+ username=test
+ password=tesing
+ 
+ from configparser import ConfigParser
+ 
+ Creating Object >> config = ConfigParser()
+ read from congig file >> config.get("path/Config.cft")
+ get data >> config.get("Name_of_section", "name_of_variable")    w mim wypadku config.get("DEV", "username") 
 ```
