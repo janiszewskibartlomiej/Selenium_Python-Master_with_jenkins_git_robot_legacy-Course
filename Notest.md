@@ -56,9 +56,77 @@ lista.index(szukanaWartość)
  
 #### 8. Konstruktor nic nie moze zwracać
 
-#### 9. file opennig mode:
+#### 9. file: 
+
+opennig mode:
 
 r, w, a, r+ [read and write], w+ [write and read], a+ [append and read]
+
+reading file:
+
+file = open("fiel.py", mode="r")
+
+file.read()  >> czyta cały plik
+file.readline() >> czyta jedną linię > pierwszą
+file.readline() >> czyta jedną linię > drugą bo drugi raz wywołaliśmy
+file.read(10)  >> czyta pierwsze 10 znaków z pliku
+
+czytanie każdego znaku z pliku:
+
+for i in file.read():
+    prit(i)
+    
+czytanie kazdej lini z pliku one by one:
+
+line = file.readline()
+
+while line:
+    print(line)
+    line = file.readline()
+    
+zapis:
+
+file = open("fiel.py", mode="w")
+file.write("Tekst do zapisu")
+file.close()
+
+mode="a" >> dokąda za każdym razem nowe dane do pliku
+
+funcja tell():
+
+file.readline()
+print(file.tell())  >> wydrukuje liczbe znnakow odczytanych np 16 czyli tak naprwde pozycje kursora po odczycie znakow
+file.readline()
+print(file.tell())  >> wydrukuje liczbe znnakow odczytanych - wszytskich np 32 g[sumuje liczbe znakow]
+
+seek() function is used to change the position of the File Handle to a given specific position. File handle is like a cursor, which defines from where the data has to be read or written in the file.
+
+Syntax: f.seek(offset, from_what), where f is file pointer
+
+Parameters:
+Offset: Number of postions to move forward
+from_what: It defines point of reference.
+
+The reference point is selected by the from_what argument. It accepts three values:
+
+0: sets the reference point at the beginning of the file
+1: sets the reference point at the current file position
+2: sets the reference point at the end of the file
+By default from_what argument is set to 0.
+
+# in binary mode 
+f = open("data.txt", "rb") 
+  
+# sets Reference point to tenth 
+# position to the left from end 
+f.seek(-10, 2) 
+  
+# prints current position 
+print(f.tell()) 
+  
+# Converting binary to string and  
+# printing 
+print(f.readline().decode('utf-8')) 
 
  
 ```
