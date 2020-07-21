@@ -138,6 +138,15 @@ print(f.readline().decode('utf-8'))
  from configparser import ConfigParser
  
  Creating Object >> config = ConfigParser()
- read from congig file >> config.get("path/Config.cft")
+ read from congig file >> config.read("path/Config.cft")  >> potrafi być problem z lokalizacją leratywną w zalezności gdzie odpala się dana metoda
  get data >> config.get("Name_of_section", "name_of_variable")    w mim wypadku config.get("DEV", "username") 
+ 
+ #### 11. nadpisywanei metod dziedziczących:
+ 
+ wystraczy stworzy metode o tej samej nazwie i z tymi samymi parametrami w clasie głównej którą wołamy i  wten sposób nadpiszemy metodę z dziedziczenia np z inną logiką.
+ czyli class A:  def sub(self, a, b): return b - a     class B(A): def sub(self, b, a): return b - a
+ 
+ 
+ 
+ 
 ```
