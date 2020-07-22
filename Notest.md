@@ -148,6 +148,54 @@ print(f.readline().decode('utf-8'))
  
  #### 12. praca z plikami excel:
  
+ #odczyt danych
+ 
+ workbook = xlrd.open_workbook(
+    "D:\...")
+
+# ilość kart
+print(workbook.nsheets)
+
+# ustawienie level na danej karcie
+worksheet = workbook.sheet_by_index(1)
+
+print(worksheet.nrows)  # ilosc wierszy
+print(worksheet.ncols)  #ilosc kolumn
+
+worksheet = workbook.sheet_by_name("Styczeń")
+print(worksheet.nrows)  # ilosc wierszy
+print(worksheet.ncols)  #ilosc kolumn
+
+# pobieranie danych
+
+workcell = worksheet.cell(rowx=70, colx=3)
+print(workcell)
+print(workcell.value)
+
+# pobieranie wszystkich danych
+
+row = worksheet.nrows
+column = worksheet.ncols
+
+for i in range(0, row):
+    for j in range(0, column):
+        wc = worksheet.cell(i, j)
+        print(wc.value)
+
+ 
+ 
+ # object of workbook >> zapis
+
+wk = xlwt.Workbook()
+
+ws = wk.add_sheet("Testing")
+ws.write(0, 0, "Testing Word") # row, column, data to write
+ws.write(0, 1, "Testing Word 2")
+
+# zapis workbook  ta biblioteka moze zapisywac w 2 formatach
+
+wk.save("D:/GITHUB/Selenium_Python_beginner_to_advanced_with_jenkins_git_robot_legacy-Course/write_excel_first1.xls")
+
  
  
  
