@@ -196,7 +196,73 @@ ws.write(0, 1, "Testing Word 2")
 
 wk.save("D:/GITHUB/Selenium_Python_beginner_to_advanced_with_jenkins_git_robot_legacy-Course/write_excel_first1.xls")
 
+ #### openpyxl:
  
+ import openpyxl
+
+# load workbook
+
+wk = openpyxl.load_workbook(
+    "D:/..../Bd2019.xlsx")
+
+# wszytskie nazwy kart
+print(wk.sheetnames)
+
+print("Aktywne karty: " + wk.active.title)
+
+# tworzenie obiektu karty > a raczej przejscie na konkretną kartę
+
+sh = wk['Luty']
+print(sh.title)
+
+# pobieranie komurki  - u mnie to nie dzila bo pokazuje funkcje liczaca
+print(sh["D71"])
+print(sh["D71"].value)
+
+# rozwiazanie >> wb = openpyxl.load_workbook(filename, data_only=True)
+# The data_only flag helps.
+
+c1 = sh.cell(17, 4)  # row, column nr a nie index!!!
+print(c1.value)
+
+c2 = sh.cell(row=74, column=3)  # badz poprzez prametryzowanie
+print(c2.value)
+print(c2.row)
+print(c2.column)
+
+# odczyt calosci z wokrbook
+
+# find rows info
+
+rows = sh.max_row
+columns = sh.max_column
+
+print("rows: ", rows)
+print("columns: ", columns)
+
+for row in sh["A1":"AN257"]:  # [start - lewy gorny rog : prawy dolny rog]
+    for c in row:
+        print(c.value)
+ 
+
+ # writing
+ 
+ 
+wk = openpyxl.Workbook()
+sh = wk.active
+sh.title = "Testing_write"
+print(sh.title)
+
+sh["A4"].value = "test to write cell"
+
+wk.create_sheet(title="Testing2")
+sh1 = wk["Testing2"]
+sh1["A3"] = "+91-85492145"
+
+# remove sheet
+wk.remove(wk["Testing_write"])
+
+wk.save("D:/.../test_write_openpyxl.xlsx")
  
  
 ```
