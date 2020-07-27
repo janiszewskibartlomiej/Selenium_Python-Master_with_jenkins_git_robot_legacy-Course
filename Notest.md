@@ -293,4 +293,6 @@ wk.save("D:/.../test_write_openpyxl.xlsx")
     element.select_by_visible_text(text)
     
     element.deselect_..... >> do usuąniecią zaznaczenia ale dział tylko z listą
+    
+    element.move_to_element() >> hover
 ```
