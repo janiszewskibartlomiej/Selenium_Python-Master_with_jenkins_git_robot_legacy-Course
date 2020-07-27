@@ -284,7 +284,7 @@ wk.save("D:/.../test_write_openpyxl.xlsx")
     act.double_click(driver.find_element_by_xpath("//a[text()='Login']")).perform()
     
     # press CTRL + literka "a"
-    act.send_keys(Keys.CONTROL).send_keys("a").perform()
+    act.key_down(Keys.CONTROL).send_keys("a").perform()
     
     #selecty
     element = Select(driver.find_element_by_name("sex"))
