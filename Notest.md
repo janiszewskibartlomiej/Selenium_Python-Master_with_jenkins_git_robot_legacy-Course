@@ -292,4 +292,5 @@ wk.save("D:/.../test_write_openpyxl.xlsx")
     element.select_by_value("value"=>text)
     element.select_by_visible_text(text)
     
+    element.deselect_..... >> do usuąniecią zaznaczenia ale dział tylko z listą
 ```
