@@ -265,4 +265,31 @@ wk.remove(wk["Testing_write"])
 wk.save("D:/.../test_write_openpyxl.xlsx")
  
  
+ #### 13. Komendy webdriver - istotnijesze dla mnie:
+ 
+ dobra praktyka jest ustawianie path z dwoma znakami "\\" np>> path="C:\\Users\\TestingWorld\\Downloads\\chromedriver_win32 (3)\\chromedriver.exe"
+ 
+ act = ActionChains(driver)
+
+    # Click operation
+    act.click().perform()
+    act.click(driver.find_element_by_xpath("//a[text()='Login']")).perform()
+
+    # Context Click(Right Click)
+    act.context_click().perform()
+    act.context_click(driver.find_element_by_xpath("//a[text()='Login']")).perform()
+
+    # double click
+    act.double_click().perform()
+    act.double_click(driver.find_element_by_xpath("//a[text()='Login']")).perform()
+    
+    # press CTRL + literka "a"
+    act.send_keys(Keys.CONTROL).send_keys("a").perform()
+    
+    #selecty
+    element = Select(driver.find_element_by_name("sex"))
+    element.select_by_index(index=>liczba)
+    element.select_by_value("value"=>text)
+    element.select_by_visible_text(text)
+    
 ```
