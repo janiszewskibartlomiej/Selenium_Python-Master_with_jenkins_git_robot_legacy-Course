@@ -292,7 +292,26 @@ wk.save("D:/.../test_write_openpyxl.xlsx")
     element.select_by_value("value"=>text)
     element.select_by_visible_text(text)
     
+    element.first_selected_oprtion.text
+    element.options  >> wszytskie opcje ale zeby zobaczyć trzeba wolac text na konkretnej ocji np [i.text for i in element.options]
+    element.all_all_selected_options   >> to na listach wszytskie zaznaczone
+    
     element.deselect_..... >> do usuąniecią zaznaczenia ale dział tylko z listą
     
-    element.move_to_element() >> hover
+    element.move_to_element().perform() >> hover
+    
+    driver.title 
+    driver.page_source 
+    na kazydm elemencie webdriver mozna zawolac element.text
+    element.get_attribute("nazwa_atrybutu" albo każdy innerText)
+    
+    
+#### 14 pytest:
+
+pytest -k nazwa_pliku lub nazwa_testu    flaga k po nazwie szuka
+pytest -v >> verbose wiecej informacji na temat testu
+@pytest.mark.skip("message) z ta flaga jest pomijane
+
+@pytest.mark.skipif(a>100, reason = "message")  >> jezeli ten warunek jest spelniony to bedzie skip i dostajemy message
+    
 ```
