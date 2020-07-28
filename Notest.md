@@ -1,17 +1,17 @@
 ```python
-#### 1. PIP
+1. PIP
 
 pip install -U nazwa_biblioteki   > instaluje jezeli nie ma juz zaintalowanej bioblioteki 
 a jezeli jest juz zaintalowana to upgrade ta biblioteke
  
 pip list >  pokazuje wszytskie dostepne/zainstalowane biblioteki
 
-#### 2. Locators
+2. Locators
 
 id, name, class name, css, xpath, link, REgEx
 
 
-#### 3. CSS Locator
+3. CSS Locator
 
 * id > #email or input#email
 * class > .inputtext or input.inputtext
@@ -21,7 +21,7 @@ id, name, class name, css, xpath, link, REgEx
 * class + attribute .inputtext[type='email']
 * tag + class + attribute input.inputtext[type='email']
 
-#### 4. XPath Locators
+4. XPath Locators
 * zaczynamy zawsze od //
 * single attribute > //tag_name[@atrrybute_name='value_attribute']
 * przykład > //input[@type='submit']
@@ -39,14 +39,14 @@ id, name, class name, css, xpath, link, REgEx
 * łączenie różnych metod > //input[@id='pass']/parent::td/precending-sibling::td/input
  przykłąd FB rej > //div[@class='_5dbb']/parent::div/preceding-sibling::div/div
 
-#### 5. bibliotek faker do generowania danych personlanych 
+5. bibliotek faker do generowania danych personlanych 
  from faker import Faker
  
-#### 6. range od 10 do 1 - decrement
+6. range od 10 do 1 - decrement
     for i in range(10,0, -1)
        print(i)
        
-#### 7. funcje wbudowane
+7. funcje wbudowane
 
 lista.insert(index, "cos do dodania" )
 lista[index] = "cos do dodnia"
@@ -54,9 +54,9 @@ lista.remove(55) >> usunie pierwsza napodkna cyfre 55 - tylko pierwsza
 lista.count(szukanyWartość)
 lista.index(szukanaWartość)
  
-#### 8. Konstruktor nic nie moze zwracać
+8. Konstruktor nic nie moze zwracać
 
-#### 9. file: 
+9. file: 
 
 opennig mode:
 
@@ -128,7 +128,7 @@ print(f.tell())
 # printing 
 print(f.readline().decode('utf-8')) 
 
- #### 10. configuration file:
+ 10. configuration file:
  
  Config.cfg
  [DEV]
@@ -141,12 +141,12 @@ print(f.readline().decode('utf-8'))
  read from congig file >> config.read("path/Config.cft")  >> potrafi być problem z lokalizacją leratywną w zalezności gdzie odpala się dana metoda
  get data >> config.get("Name_of_section", "name_of_variable")    w mim wypadku config.get("DEV", "username") 
  
- #### 11. nadpisywanie metod dziedziczących:
+ 11. nadpisywanie metod dziedziczących:
  
  wystraczy stworzy metode o tej samej nazwie i z tymi samymi parametrami w clasie głównej którą wołamy i  wten sposób nadpiszemy metodę z dziedziczenia np z inną logiką.
  czyli class A:  def sub(self, a, b): return b - a     class B(A): def sub(self, b, a): return b - a
  
- #### 12. praca z plikami excel:
+ 12. praca z plikami excel:
  
  #odczyt danych
  
@@ -265,7 +265,7 @@ wk.remove(wk["Testing_write"])
 wk.save("D:/.../test_write_openpyxl.xlsx")
  
  
- #### 13. Komendy webdriver - istotnijesze dla mnie:
+ 13. Komendy webdriver - istotnijesze dla mnie:
  
  dobra praktyka jest ustawianie path z dwoma znakami "\\" np>> path="C:\\Users\\TestingWorld\\Downloads\\chromedriver_win32 (3)\\chromedriver.exe"
  
@@ -306,12 +306,19 @@ wk.save("D:/.../test_write_openpyxl.xlsx")
     element.get_attribute("nazwa_atrybutu" albo każdy innerText)
     
     
-#### 14 pytest:
+14 pytest:
 
 pytest -k nazwa_pliku lub nazwa_testu    flaga k po nazwie szuka
 pytest -v >> verbose wiecej informacji na temat testu
 @pytest.mark.skip("message) z ta flaga jest pomijane
 
 @pytest.mark.skipif(a>100, reason = "message")  >> jezeli ten warunek jest spelniony to bedzie skip i dostajemy message
+
+grupowanie testow otagowanie >> @pytest.mark.nazwa_grupy   np smoke
+
+pytest -m smoke -v   >> flaga m mowi o uruchomieniu tagu o nazwie somke
+
+uruchomie wszytskich testow poza danym tagiem >> python -m "not smoke" -v
+
     
 ```
