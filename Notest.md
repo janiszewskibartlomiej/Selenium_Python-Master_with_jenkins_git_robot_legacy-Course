@@ -337,7 +337,29 @@ driver = ...
 assert driver.title == "test title"
 
     
-    
-    
+15. Waits:
+
+można ustawic globalny wait ale jest nie doskonaly w moim przekonaiu. = implicitly_wait() 
+
+@pytest.fixture()
+def driver():
+    firefox_driver = webdriver.Firefox(
+        executable_path="\\geckodriver.exe")
+    firefox_driver.set_page_load_timeout(30)  >> ładowanei strony max 30 sek
+
+    yield firefox_driver
+    firefox_driver.quit()
+
+
+def test_1(driver):
+   
+    driver.get("http://cadillac.pl")
+    wait = WebDriverWait(driver, 30).until(ec.url_contains(url="/cadillac")) czy url in current_url
+    print(wait)  # true
+    driver.get("http://cadillac.com")
+    wait2 = WebDriverWait(driver, 30).until(ec.url_to_be(url="https://www.cadillac.com/"))  czy url == current_url
+    print(wait2)  # true
+    assert wait2 is True
+
     
 ```
