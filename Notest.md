@@ -320,5 +320,24 @@ pytest -m smoke -v   >> flaga m mowi o uruchomieniu tagu o nazwie somke
 
 uruchomie wszytskich testow poza danym tagiem >> python -m "not smoke" -v
 
+@pytest.fixture()
+def set_path():
+global driver >> trzeba ustawić aby ta zmienna byla widoczna w danych testach
+path_to_chrome_driver= ...
+driver = ...
+    
+def test_123(set_path):  wykona sie fixture set_path a pote def 123
+
+zeby start drivera byl tylko raz i zakonczenie tylko raz na konciu po yield mozmey skorzystac z :
+@pytest.fxture(scope="module")
+def set_path():
+path_to_chrome_driver= ...
+driver = ...
+
+assert driver.title == "test title"
+
+    
+    
+    
     
 ```
