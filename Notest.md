@@ -306,6 +306,8 @@ wk.save("D:/.../test_write_openpyxl.xlsx")
     element.get_attribute("nazwa_atrybutu" albo każdy innerText)
     
     
+    driver.execute_script("JS code")
+    
 14 pytest:
 
 pytest -k nazwa_pliku lub nazwa_testu    flaga k po nazwie szuka
@@ -361,5 +363,21 @@ def test_1(driver):
     print(wait2)  # true
     assert wait2 is True
 
+16. handles
+
+popup
+allwindows = driver.window_handles
+    mainWin=""
+    for win in allwindows:
+        driver.switch_to.window(win)
+        if(driver.current_url=='http://www.thetestingworld.com/testings/manage_customer.php'):
+            driver.find_element_by_xpath("//button[text()='Start Download']").click()
+            time.sleep(5)
+            driver.close()
+        elif(driver.current_url=='http://www.thetestingworld.com/testings/dashboard.php'):
+             mainWin=win
+
+
+    driver.switch_to.window(mainWin)
     
 ```
