@@ -380,4 +380,9 @@ allwindows = driver.window_handles
 
     driver.switch_to.window(mainWin)
     
+       # jak mamy cos w iframe to uzywamy
+       driver.switch_to.frame("nazwa_iframe")
+       
+       driver.switch_to.default_content()   >>> do przelącenia się na rodzica window
+
 ```
