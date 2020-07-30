@@ -385,4 +385,42 @@ allwindows = driver.window_handles
        
        driver.switch_to.default_content()   >>> do przelącenia się na rodzica window
 
+17. logging module
+
+logger = logging.getLogger(str(__name__))
+logger.setLevel(logging.INFO)
+
+# Create a file handler
+handler_warn = logging.FileHandler('warning_log.txt')
+handler_warn.setLevel(logging.WARNING)
+
+handler_info = logging.FileHandler('info_log.txt')
+handler_info.setLevel(logging.INFO)
+
+# create a logging format
+
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+handler_warn.setFormatter(formatter)
+handler_info.setFormatter(formatter)
+
+# add the handler to the logger
+
+logger.addHandler(handler_warn)
+logger.addHandler(handler_info)
+
+logger.info('Information')
+logger.warning('warning')
+
+18. Allure report
+
+pip install allure-pytest
+
+npm install -g allure-commandline --save-dev
+
+pytest --alluredir ./reports/20200730/allure
+
+wejsc do katalogu w ktorym ma byc wygenerowany raport >>reports\20200730\HTML_report>allure generate D:\...\h_v9\reports\20200730\allure --clean
+
+
+
 ```
