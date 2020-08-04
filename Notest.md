@@ -421,6 +421,14 @@ pytest --alluredir ./reports/20200730/allure
 
 wejsc do katalogu w ktorym ma byc wygenerowany raport >>reports\20200730\HTML_report>allure generate D:\...\h_v9\reports\20200730\allure --clean
 
+19. Importy - problemy:
+
+odpalenie z konsoli moze okazac sie niemozliwe poniewaz importy nie beda wykonywane bo import szuka pakietow a nie folderów w tum celu trzeba dodać w danym katalogu:
+__init__.py i w nim zaiportować dany plik z bierzacego katalogu >> np from . import test_....
+
+"./tests/..."  kropka w tym wypadku oznacza nasz root 
+
+scieszka do drivera powinna byc user\\folder\\  z 2 back slash  lub /user/folder/... slash
 
 
 ```
