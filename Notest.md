@@ -338,6 +338,7 @@ driver = ...
 
 assert driver.title == "test title"
 
+pytest -s >> to jest iterator i printuje wynik detali
     
 15. Waits:
 
