@@ -471,7 +471,7 @@ extension to notepad++  https://github.com/AndyLPK247/automation-panda-resources
 
 Feature: Scenario: Given: When: Then: And: But:
 
-Feature: Nazwa feature
+Feature: Nazwa feature >> define End to End scenario
          jakis opis - description
          
      Scenario: nazwa tests cases
