@@ -461,6 +461,33 @@ def test_validation(enter_username_and_password, driver):
     driver.find_element_by_name("_txtUserName").send_keys(enter_username_and_password[0])
     driver.find_element_by_name("_txtPassword").send_keys(enter_username_and_password[1])
 
+21. Gherkin language:
 
+nazwa_pliku.feature
+
+extension to notepad++  https://github.com/AndyLPK247/automation-panda-resources
+
+
+
+Feature: Scenario: Given: When: Then: And: But:
+
+Feature: Nazwa feature
+         jakis opis - description
+         
+     Scenario: nazwa tests cases
+     
+          Given: dane początkowe >> nasz init
+     
+przykład:
+
+Feature: Google Searching
+  As a web surfer, I want to search Google, so that I can learn new things.
+  
+  Scenario: Simple Google search
+    Given a web browser is on the Google page
+    When the search phrase "panda" is entered
+    Then results for "panda" are shown
+    And the related results include "Panda Express"
+    But the related results do not include "pandemonium"
 
 ```
