@@ -490,4 +490,67 @@ Feature: Google Searching
     And the related results include "Panda Express"
     But the related results do not include "pandemonium"
 
+Background
+A Background allows you to add some context to the scenarios that follow it. It can contain one or more Given steps, which are run before each scenario, but after any Before hooks.
+A Background is placed before the first Scenario/Example, at the same level of indentation.
+Background is also supported at the Rule level, for example:
+
+Feature: Overdue tasks
+  Let users know when tasks are overdue, even when using other
+  features of the app
+
+  Rule: Users are notified about overdue tasks on first use of the day
+    Background:
+      Given I have overdue tasks
+
+    Example: First use of the day
+      Given I last used the app yesterday
+      When I use the app
+      Then I am notified about overdue tasks
+
+    Example: Already used today
+      Given I last used the app earlier today
+      When I use the app
+      Then I am not notified about overdue tasks
+
+
+
+Scenario Outline
+
+The Scenario Outline keyword can be used to run the same Scenario multiple times, with different combinations of values.
+Scenario outlines allow us to more concisely express these scenarios through the use of a template with < >-delimited parameters:
+
+Scenario Outline: eating
+  Given there are "<start>" cucumbers
+  When I eat "<eat>" cucumbers
+  Then I should have "<left>" cucumbers
+
+  Examples:
+    | start | eat | left |
+    |    12 |   5 |    7 |
+    |    20 |   5 |   15 |
+
+Keywords
+Each line that isn’t a blank line has to start with a Gherkin keyword, followed by any text you like. The only exceptions are the feature and scenario descriptions.
+
+The primary keywords are:
+
+Feature
+Rule (as of Gherkin 6)
+Example (or Scenario)
+Given, When, Then, And, But for steps (or *)
+Background
+Scenario Outline (or Scenario Template)
+Examples
+There are a few secondary keywords as well:
+
+""" (Doc Strings)
+| (Data Tables)
+@ (Tags)
+# (Comments)
+"test"  (steps argument) exp  User enter "test" in search field   >> w automacie string test bedzie wprowadzony w inputcie
+
+
+
+
 ```
