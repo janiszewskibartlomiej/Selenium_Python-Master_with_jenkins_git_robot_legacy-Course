@@ -549,8 +549,14 @@ There are a few secondary keywords as well:
 @ (Tags)
 # (Comments)
 "test"  (steps argument) exp  User enter "test" in search field   >> w automacie string test bedzie wprowadzony w inputcie
+"""
 
 
+MOJ PRZYKŁAD
 
+Feature: define End to End scenario
+          ta i kolejne linijki to jest description of feature
+  Scenario:  to jest nazwa test case of the feature
+      Given:  initial point przed test case running
 
 ```
