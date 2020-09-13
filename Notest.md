@@ -551,6 +551,7 @@ There are a few secondary keywords as well:
 "test"  (steps argument) exp  User enter "test" in search field   >> w automacie string test bedzie wprowadzony w inputcie
 """
 
+pip install behave
 
 MOJ PRZYKŁAD
 
