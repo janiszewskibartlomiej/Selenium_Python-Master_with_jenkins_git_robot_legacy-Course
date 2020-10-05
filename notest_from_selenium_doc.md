@@ -1,13 +1,14 @@
 ### Using Selenium with remote WebDriver
 To use the remote WebDriver, you should have Selenium server running. To run the server, use this command:
 
-java -jar selenium-server-standalone-2.x.x.jar
+```java -jar selenium-server-standalone-2.x.x.jar```
 While running the Selenium server, you could see a message looking like this:
 
-15:43:07.541 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+```15:43:07.541 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub```
 The above line says that you can use this URL for connecting to remote WebDriver. Here are some examples:
 
-```python from selenium import webdriver
+```python 
+from selenium import webdriver
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
 driver = webdriver.Remote(
