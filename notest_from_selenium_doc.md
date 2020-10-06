@@ -30,4 +30,83 @@ driver = webdriver.Remote(
    desired_capabilities={'browserName': 'htmlunit',
                          'version': '2',
                         'javascriptEnabled': True})
+                        
+Filling in forms
+
+from selenium.webdriver.support.ui import Select
+select = Select(driver.find_element_by_name('name'))
+select.select_by_index(index)
+select.select_by_visible_text("text")
+select.select_by_value(value)
+WebDriver also provides features for deselecting all the selected options:
+
+select = Select(driver.find_element_by_id('id'))
+select.deselect_all()
+This will deselect all OPTIONs from that particular SELECT on the page.
+
+Suppose in a test, we need the list of all default selected options, Select class provides a property method that returns a list:
+
+select = Select(driver.find_element_by_xpath("//select[@name='name']"))
+all_selected_options = select.all_selected_options
+To get all available options:
+
+options = select.options
+Once you’ve finished filling out the form, you probably want to submit it. One way to do this would be to find the “submit” button and click it:
+
+# Assume the button has the ID "submit" :)
+driver.find_element_by_id("submit").click()
+Alternatively, WebDriver has the convenience method “submit” on every element. If you call this on an element within a form, WebDriver will walk up the DOM until it finds the enclosing form and then calls submit on that. If the element isn’t in a form, then the NoSuchElementException will be raised:
+
+element.submit()
+
+
+3.3. Drag and drop
+You can use drag and drop, either moving an element by a certain amount, or on to another element:
+
+element = driver.find_element_by_name("source")
+target = driver.find_element_by_name("target")
+
+from selenium.webdriver import ActionChains
+action_chains = ActionChains(driver)
+action_chains.drag_and_drop(element, target).perform()
+
+
+3.4. Moving between windows and frames
+It’s rare for a modern web application not to have any frames or to be constrained to a single window. WebDriver supports moving between named windows using the “switch_to_window” method:
+
+driver.switch_to_window("windowName")
+All calls to driver will now be interpreted as being directed to the particular window. But how do you know the window’s name? Take a look at the javascript or link that opened it:
+
+<a href="somewhere.html" target="windowName">Click here to open a new window</a>
+Alternatively, you can pass a “window handle” to the “switch_to_window()” method. Knowing this, it’s possible to iterate over every open window like so:
+
+for handle in driver.window_handles:
+    driver.switch_to_window(handle)
+You can also swing from frame to frame (or into iframes):
+
+driver.switch_to_frame("frameName")
+It’s possible to access subframes by separating the path with a dot, and you can specify the frame by its index too. That is:
+
+driver.switch_to_frame("frameName.0.child")
+would go to the frame named “child” of the first subframe of the frame called “frameName”. All frames are evaluated as if from *top*.
+
+Once we are done with working on frames, we will have to come back to the parent frame which can be done using:
+
+driver.switch_to_default_content()
+
+3.5. Popup dialogs
+
+alert = driver.switch_to.alert
+This will return the currently open alert object. With this object, you can now accept, dismiss, read its contents or even type into a prompt. This interface works equally well on alerts, confirms, prompts. Refer to the API documentation for more information.
+
+3.6. Navigation: history and location
+
+driver.get("http://www.example.com")
+To move backward and forward in your browser’s history:
+
+driver.forward()
+driver.back()
+
+
+
 ```
