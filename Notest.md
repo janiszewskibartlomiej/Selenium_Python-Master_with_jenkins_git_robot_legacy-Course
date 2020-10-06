@@ -553,6 +553,8 @@ There are a few secondary keywords as well:
 
 pip install behave
 
+przyklady >> https://automationpanda.com/2017/01/27/bdd-101-gherkin-by-example/
+
 MOJ PRZYKŁAD
 
 Feature: define End to End scenario
