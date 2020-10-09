@@ -476,7 +476,7 @@ Feature: Nazwa feature >> define End to End scenario
          
      Scenario: nazwa tests cases
      
-          Given: dane początkowe >> nasz init
+          Given dane początkowe >> nasz init
      
 przykład:
 
@@ -560,6 +560,6 @@ MOJ PRZYKŁAD
 Feature: define End to End scenario
           ta i kolejne linijki to jest description of feature
   Scenario:  to jest nazwa test case of the feature
-      Given:  initial point przed test case running
+      Given  initial point przed test case running
 
 ```
