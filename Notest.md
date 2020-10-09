@@ -551,9 +551,11 @@ There are a few secondary keywords as well:
 "test"  (steps argument) exp  User enter "test" in search field   >> w automacie string test bedzie wprowadzony w inputcie
 """
 
-pip install behave
+pip install behave   dokumentaja https://behave.readthedocs.io/en/latest/gherkin.html
 
 przyklady >> https://automationpanda.com/2017/01/27/bdd-101-gherkin-by-example/
+
+             https://docs.behat.org/en/v2.5/guides/1.gherkin.html
 
 MOJ PRZYKŁAD
 
