@@ -556,7 +556,13 @@ pip install behave   dokumentaja https://behave.readthedocs.io/en/latest/gherkin
 przyklady >> https://automationpanda.com/2017/01/27/bdd-101-gherkin-by-example/
 
              https://docs.behat.org/en/v2.5/guides/1.gherkin.html
+             
 
+	![](https://github.com/janiszewskibartlomiej/Selenium_Python-Master_with_jenkins_git_robot_legacy-Course/blob/master/2020-10-09_23h17_10.png)
+	![](https://github.com/janiszewskibartlomiej/Selenium_Python-Master_with_jenkins_git_robot_legacy-Course/blob/master/2020-10-09_23h27_24.png)
+	![](https://github.com/janiszewskibartlomiej/Selenium_Python-Master_with_jenkins_git_robot_legacy-Course/blob/master/2020-10-09_23h37_38.png)
+	![](https://github.com/janiszewskibartlomiej/Selenium_Python-Master_with_jenkins_git_robot_legacy-Course/blob/master/2020-10-09_23h38_48.png)
+ 
 MOJ PRZYKŁAD
 
 Feature: define End to End scenario
