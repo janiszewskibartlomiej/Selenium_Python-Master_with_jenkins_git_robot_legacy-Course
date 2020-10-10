@@ -107,6 +107,62 @@ To move backward and forward in your browser’s history:
 driver.forward()
 driver.back()
 
+5.0
+
+Expected Conditions
+
+There are some common conditions that are frequently of use when automating web browsers. Listed below are the names of each. Selenium Python binding provides some convenience methods so you don’t have to code an expected_condition class yourself or create your own utility package for them.
+
+title_is
+title_contains
+presence_of_element_located
+visibility_of_element_located
+visibility_of
+presence_of_all_elements_located
+text_to_be_present_in_element
+text_to_be_present_in_element_value
+frame_to_be_available_and_switch_to_it
+invisibility_of_element_located
+element_to_be_clickable
+staleness_of
+element_to_be_selected
+element_located_to_be_selected
+element_selection_state_to_be
+element_located_selection_state_to_be
+alert_is_present
+
+6. Actions   Chains >> https://selenium-python.readthedocs.io/api.html#module-selenium.webdriver.common.action_chains
+
+ActionChains can be used in a chain pattern:
+
+menu = driver.find_element_by_css_selector(".nav")
+hidden_submenu = driver.find_element_by_css_selector(".nav #submenu1")
+
+ActionChains(driver).move_to_element(menu).click(hidden_submenu).perform()
+
+7.3. Alerts
+The Alert implementation.
+
+class selenium.webdriver.common.alert.Alert(driver)
+Bases: object
+
+Allows to work with alerts.
+
+Use this class to interact with alert prompts. It contains methods for dismissing, accepting, inputting, and getting text from alert prompts.
+
+Accepting / Dismissing alert prompts:
+
+Alert(driver).accept()
+Alert(driver).dismiss()
+Inputting a value into an alert prompt:
+
+name_prompt = Alert(driver) name_prompt.send_keys(“Willian Shakesphere”) name_prompt.accept()
+Reading a the text of a prompt for verification:
+
+alert_text = Alert(driver).text self.assertEqual(“Do you wish to quit?”, alert_text)
 
 
+Example, pressing ctrl+c:
+
+ActionChains(driver).key_down(Keys.CONTROL).send_keys('c').key_up(Keys.CONTROL).perform()
 ```
