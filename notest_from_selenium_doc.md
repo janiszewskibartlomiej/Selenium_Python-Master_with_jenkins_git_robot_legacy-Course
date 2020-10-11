@@ -140,6 +140,11 @@ hidden_submenu = driver.find_element_by_css_selector(".nav #submenu1")
 
 ActionChains(driver).move_to_element(menu).click(hidden_submenu).perform()
 
+
+Example, pressing ctrl+c:
+
+ActionChains(driver).key_down(Keys.CONTROL).send_keys('c').key_up(Keys.CONTROL).perform()
+
 7.3. Alerts
 The Alert implementation.
 
@@ -162,7 +167,4 @@ Reading a the text of a prompt for verification:
 alert_text = Alert(driver).text self.assertEqual(“Do you wish to quit?”, alert_text)
 
 
-Example, pressing ctrl+c:
-
-ActionChains(driver).key_down(Keys.CONTROL).send_keys('c').key_up(Keys.CONTROL).perform()
 ```
