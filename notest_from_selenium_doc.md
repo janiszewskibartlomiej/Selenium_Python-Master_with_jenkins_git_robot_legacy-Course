@@ -165,6 +165,88 @@ name_prompt = Alert(driver) name_prompt.send_keys(“Willian Shakesphere”) nam
 Reading a the text of a prompt for verification:
 
 alert_text = Alert(driver).text self.assertEqual(“Do you wish to quit?”, alert_text)
+```
+## II. Using Selenium with remote WebDriver   
+
+https://selenium-python.readthedocs.io/getting-started.html#using-selenium-with-remote-webdriver
+
+I https://selenium-python.readthedocs.io/api.html#desired-capabilities
+
+To use the remote WebDriver, you should have Selenium server running. To run the server, use this command:
+
+java -jar selenium-server-standalone-2.x.x.jar
+While running the Selenium server, you could see a message looking like this:
+
+15:43:07.541 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+The above line says that you can use this URL for connecting to remote WebDriver. Here are some examples:
+
+from selenium import webdriver
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+
+driver = webdriver.Remote(
+   command_executor='http://127.0.0.1:4444/wd/hub',
+   desired_capabilities=DesiredCapabilities.CHROME)
+
+driver = webdriver.Remote(
+   command_executor='http://127.0.0.1:4444/wd/hub',
+   desired_capabilities=DesiredCapabilities.OPERA)
+
+driver = webdriver.Remote(
+   command_executor='http://127.0.0.1:4444/wd/hub',
+   desired_capabilities=DesiredCapabilities.HTMLUNITWITHJS)
+The desired capabilities is a dictionary, so instead of using the default dictionaries, you can specify the values explicitly:
+
+driver = webdriver.Remote(
+   command_executor='http://127.0.0.1:4444/wd/hub',
+   desired_capabilities={'browserName': 'htmlunit',
+                         'version': '2',
+                        'javascriptEnabled': True})
+                        
+ class selenium.webdriver.common.desired_capabilities.DesiredCapabilities
+Bases: object
+
+Set of default supported desired capabilities.
+
+Use this as a starting point for creating a desired capabilities object for requesting remote webdrivers for connecting to selenium server or selenium grid.
+
+Usage Example:
+
+from selenium import webdriver
+
+selenium_grid_url = "http://198.0.0.1:4444/wd/hub"
+
+# Create a desired capabilities object as a starting point.
+capabilities = DesiredCapabilities.FIREFOX.copy()
+capabilities['platform'] = "WINDOWS"
+capabilities['version'] = "10"
+
+# Instantiate an instance of Remote WebDriver with the desired capabilities.
+driver = webdriver.Remote(desired_capabilities=capabilities,
+                          command_executor=selenium_grid_url)
+Note: Always use ‘.copy()’ on the DesiredCapabilities object to avoid the side effects of altering the Global class instance.
+
+ANDROID = {'browserName': 'android', 'platform': 'ANDROID', 'version': ''}
+CHROME = {'browserName': 'chrome', 'platform': 'ANY', 'version': ''}
+EDGE = {'browserName': 'MicrosoftEdge', 'platform': 'WINDOWS', 'version': ''}
+FIREFOX = {'acceptInsecureCerts': True, 'browserName': 'firefox', 'marionette': True}¶
+HTMLUNIT = {'browserName': 'htmlunit', 'platform': 'ANY', 'version': ''}
+HTMLUNITWITHJS = {'browserName': 'htmlunit', 'javascriptEnabled': True, 'platform': 'ANY', 'version': 'firefox'}
+INTERNETEXPLORER = {'browserName': 'internet explorer', 'platform': 'WINDOWS', 'version': ''}
+IPAD = {'browserName': 'iPad', 'platform': 'MAC', 'version': ''}
+IPHONE = {'browserName': 'iPhone', 'platform': 'MAC', 'version': ''}
+OPERA = {'browserName': 'opera', 'platform': 'ANY', 'version': ''}
+PHANTOMJS = {'browserName': 'phantomjs', 'javascriptEnabled': True, 'platform': 'ANY', 'version': ''}
+SAFARI = {'browserName': 'safari', 'platform': 'MAC', 'version': ''}
+WEBKITGTK = {'browserName': 'MiniBrowser', 'platform': 'ANY', 'version': ''}
 
 
 ```
+
+
+
+
+
+
+
+```
+
