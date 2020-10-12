@@ -239,6 +239,75 @@ PHANTOMJS = {'browserName': 'phantomjs', 'javascriptEnabled': True, 'platform': 
 SAFARI = {'browserName': 'safari', 'platform': 'MAC', 'version': ''}
 WEBKITGTK = {'browserName': 'MiniBrowser', 'platform': 'ANY', 'version': ''}
 
+7.7. Touch Actions
+The Touch Actions implementation
+
+class selenium.webdriver.common.touch_actions.TouchActions(driver)
+Bases: object
+
+Generate touch actions. Works like ActionChains; actions are stored in the TouchActions object and are fired with perform().
+
+7.8. Proxy
+The Proxy implementation.
+
+class selenium.webdriver.common.proxy.Proxy(raw=None)
+Bases: object
+
+Proxy contains information about proxy type and necessary proxy settings.
+
+7.9. Utilities
+The Utils methods.
+
+selenium.webdriver.common.utils.find_connectable_ip(host, port=None)
+Resolve a hostname to an IP, preferring IPv4 addresses.
+
+We prefer IPv4 so that we don’t change behavior from previous IPv4-only implementations, and because some drivers (e.g., FirefoxDriver) do not support IPv6 connections.
+
+If the optional port number is provided, only IPs that listen on the given port are considered.
+
+Args:	
+host - A hostname.
+port - Optional port number.
+Returns:	
+A single IP address, as a string. If any IPv4 address is found, one is returned. Otherwise, if any IPv6 address is found, one is returned. If neither, then None is returned.
+
+7.11. Application Cache
+The ApplicationCache implementaion.
+
+class selenium.webdriver.common.html5.application_cache.ApplicationCache(driver)
+
+7.20. Remote WebDriver
+The WebDriver implementation.
+
+class selenium.webdriver.remote.webdriver.WebDriver(command_executor='http://127.0.0.1:4444/wd/hub', desired_capabilities=None, browser_profile=None, proxy=None, keep_alive=False, file_detector=None, options=None)
+Bases: object
+
+Controls a browser by sending commands to a remote server. This server is expected to be running the WebDriver wire protocol as defined at https://github.com/SeleniumHQ/selenium/wiki/JsonWireProtocol
+
+Attributes:	
+session_id - String ID of the browser session started and controlled by this WebDriver.
+capabilities - Dictionaty of effective capabilities of this browser session as returned
+by the remote server. See https://github.com/SeleniumHQ/selenium/wiki/DesiredCapabilities
+command_executor - remote_connection.RemoteConnection object used to execute commands.
+error_handler - errorhandler.ErrorHandler object used to handle errors.
+__init__(command_executor='http://127.0.0.1:4444/wd/hub', desired_capabilities=None, browser_profile=None, proxy=None, keep_alive=False, file_detector=None, options=None)
+Create a new driver that will issue commands using the wire protocol.
+
+Args:	
+command_executor - Either a string representing URL of the remote server or a custom
+remote_connection.RemoteConnection object. Defaults to ‘http://127.0.0.1:4444/wd/hub’.
+desired_capabilities - A dictionary of capabilities to request when
+starting the browser session. Required parameter.
+browser_profile - A selenium.webdriver.firefox.firefox_profile.FirefoxProfile object.
+Only used if Firefox is requested. Optional.
+proxy - A selenium.webdriver.common.proxy.Proxy object. The browser session will
+be started with given proxy settings, if possible. Optional.
+keep_alive - Whether to configure remote_connection.RemoteConnection to use
+HTTP keep-alive. Defaults to False.
+file_detector - Pass custom file detector object during instantiation. If None,
+then default LocalFileDetector() will be used.
+options - instance of a driver options.Options class
+
 
 ```
 
