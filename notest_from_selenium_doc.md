@@ -308,6 +308,106 @@ file_detector - Pass custom file detector object during instantiation. If None,
 then default LocalFileDetector() will be used.
 options - instance of a driver options.Options class
 
+komendy  https://selenium-python.readthedocs.io/api.html#module-selenium.webdriver.remote.webdriver
+
+web element https://selenium-python.readthedocs.io/api.html#module-selenium.webdriver.remote.webelement
+
+7.22. Remote WebDriver Command¶ https://selenium-python.readthedocs.io/api.html#module-selenium.webdriver.remote.command
+
+7.28. Android WebDriver
+class selenium.webdriver.android.webdriver.WebDriver(host='localhost', port=4444, desired_capabilities={'browserName': 'android', 'platform': 'ANDROID', 'version': ''})
+Bases: selenium.webdriver.remote.webdriver.WebDriver
+
+Simple RemoteWebDriver wrapper to start connect to Selendroid’s WebView app
+
+For more info on getting started with Selendroid http://selendroid.io/mobileWeb.html
+
+__init__(host='localhost', port=4444, desired_capabilities={'browserName': 'android', 'platform': 'ANDROID', 'version': ''})
+Creates a new instance of Selendroid using the WebView app
+
+Args:	
+host - location of where selendroid is running
+port - port that selendroid is running on
+desired_capabilities: Dictionary object with capabilities
+
+7.32. Safari WebDriver
+class selenium.webdriver.safari.webdriver.WebDriver(port=0, executable_path='/usr/bin/safaridriver', reuse_service=False, desired_capabilities={'browserName': 'safari', 'platform': 'MAC', 'version': ''}, quiet=False, keep_alive=True, service_args=None)
+Bases: selenium.webdriver.remote.webdriver.WebDriver
+
+Controls the SafariDriver and allows you to drive the browser.
+
+__init__(port=0, executable_path='/usr/bin/safaridriver', reuse_service=False, desired_capabilities={'browserName': 'safari', 'platform': 'MAC', 'version': ''}, quiet=False, keep_alive=True, service_args=None)
+Creates a new Safari driver instance and launches or finds a running safaridriver service.
+
+Args:	
+port - The port on which the safaridriver service should listen for new connections. If zero, a free port will be found.
+executable_path - Path to a custom safaridriver executable to be used. If absent, /usr/bin/safaridriver is used.
+reuse_service - If True, do not spawn a safaridriver instance; instead, connect to an already-running service that was launched externally.
+desired_capabilities: Dictionary object with desired capabilities (Can be used to provide various Safari switches).
+quiet - If True, the driver’s stdout and stderr is suppressed.
+keep_alive - Whether to configure SafariRemoteConnection to use
+HTTP keep-alive. Defaults to False.
+service_args : List of args to pass to the safaridriver service
+debug()
+get_permission(permission)
+quit()
+Closes the browser and shuts down the SafariDriver executable that is started when starting the SafariDriver
+
+set_permission(permission, value)
+
+
+7.33. Safari WebDriver Service
+
+class selenium.webdriver.safari.service.Service(executable_path, port=0, quiet=False, service_args=None)
+Bases: selenium.webdriver.common.service.Service
+
+Object that manages the starting and stopping of the SafariDriver
+
+__init__(executable_path, port=0, quiet=False, service_args=None)
+Creates a new instance of the Service
+
+Args:	
+executable_path : Path to the SafariDriver
+port : Port the service is running on
+quiet : Suppress driver stdout and stderr
+service_args : List of args to pass to the safaridriver service
+command_line_args()
+service_url
+Gets the url of the SafariDriver Service
+
+https://selenium-python.readthedocs.io/api.html#module-selenium.webdriver.support.wait
+
+
+7.38. Abstract Event Listener Support
+class selenium.webdriver.support.abstract_event_listener.AbstractEventListener
+Bases: object
+
+Event listener must subclass and implement this fully or partially
+
+after_change_value_of(element, driver)
+after_click(element, driver)
+after_close(driver)
+after_execute_script(script, driver)
+after_find(by, value, driver)
+after_navigate_back(driver)
+after_navigate_forward(driver)
+after_navigate_to(url, driver)
+after_quit(driver)
+before_change_value_of(element, driver)
+before_click(element, driver)
+before_close(driver)
+before_execute_script(script, driver)
+before_find(by, value, driver)
+before_navigate_back(driver)
+before_navigate_forward(driver)
+before_navigate_to(url, driver)
+before_quit(driver)
+on_exception(exception, driver)
+
+7.39. Expected conditions Support  https://selenium-python.readthedocs.io/api.html#module-selenium.webdriver.support.expected_conditions
+
+
+
 
 ```
 
