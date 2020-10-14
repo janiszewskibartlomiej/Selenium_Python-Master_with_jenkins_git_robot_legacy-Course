@@ -405,7 +405,145 @@ on_exception(exception, driver)
 ## 7.39. Expected conditions Support  https://selenium-python.readthedocs.io/api.html#module-selenium.webdriver.support.expected_conditions
 
 
+## 7.39. Expected conditions Support
+class selenium.webdriver.support.expected_conditions.alert_is_present
+Bases: object
 
+Expect an alert to be present.
+
+class selenium.webdriver.support.expected_conditions.element_located_selection_state_to_be(locator, is_selected)
+Bases: object
+
+An expectation to locate an element and check if the selection state specified is in that state. locator is a tuple of (by, path) is_selected is a boolean
+
+class selenium.webdriver.support.expected_conditions.element_located_to_be_selected(locator)
+Bases: object
+
+An expectation for the element to be located is selected. locator is a tuple of (by, path)
+
+class selenium.webdriver.support.expected_conditions.element_selection_state_to_be(element, is_selected)
+Bases: object
+
+An expectation for checking if the given element is selected. element is WebElement object is_selected is a Boolean.”
+
+class selenium.webdriver.support.expected_conditions.element_to_be_clickable(locator)
+Bases: object
+
+An Expectation for checking an element is visible and enabled such that you can click it.
+
+class selenium.webdriver.support.expected_conditions.element_to_be_selected(element)
+Bases: object
+
+An expectation for checking the selection is selected. element is WebElement object
+
+class selenium.webdriver.support.expected_conditions.frame_to_be_available_and_switch_to_it(locator)
+Bases: object
+
+An expectation for checking whether the given frame is available to switch to. If the frame is available it switches the given driver to the specified frame.
+
+class selenium.webdriver.support.expected_conditions.invisibility_of_element(locator)
+
+Bases: selenium.webdriver.support.expected_conditions.invisibility_of_element_located
+
+An Expectation for checking that an element is either invisible or not present on the DOM.
+
+element is either a locator (text) or an WebElement
+
+class selenium.webdriver.support.expected_conditions.invisibility_of_element_located(locator)
+Bases: object
+
+An Expectation for checking that an element is either invisible or not present on the DOM.
+
+locator used to find the element
+
+class selenium.webdriver.support.expected_conditions.new_window_is_opened(current_handles)
+Bases: object
+
+An expectation that a new window will be opened and have the number of windows handles increase
+
+class selenium.webdriver.support.expected_conditions.number_of_windows_to_be(num_windows)
+Bases: object
+
+An expectation for the number of windows to be a certain value.
+
+class selenium.webdriver.support.expected_conditions.presence_of_all_elements_located(locator)
+Bases: object
+
+An expectation for checking that there is at least one element present on a web page. locator is used to find the element returns the list of WebElements once they are located
+
+class selenium.webdriver.support.expected_conditions.presence_of_element_located(locator)
+Bases: object
+
+An expectation for checking that an element is present on the DOM of a page. This does not necessarily mean that the element is visible. locator - used to find the element returns the WebElement once it is located
+
+class selenium.webdriver.support.expected_conditions.staleness_of(element)
+Bases: object
+
+Wait until an element is no longer attached to the DOM. element is the element to wait for. returns False if the element is still attached to the DOM, true otherwise.
+
+class selenium.webdriver.support.expected_conditions.text_to_be_present_in_element(locator, text_)
+Bases: object
+
+An expectation for checking if the given text is present in the specified element. locator, text
+
+class selenium.webdriver.support.expected_conditions.text_to_be_present_in_element_value(locator, text_)
+Bases: object
+
+An expectation for checking if the given text is present in the element’s locator, text
+
+class selenium.webdriver.support.expected_conditions.title_contains(title)
+Bases: object
+
+An expectation for checking that the title contains a case-sensitive substring. title is the fragment of title expected returns True when the title matches, False otherwise
+
+class selenium.webdriver.support.expected_conditions.title_is(title)
+Bases: object
+
+An expectation for checking the title of a page. title is the expected title, which must be an exact match returns True if the title matches, false otherwise.
+
+
+class selenium.webdriver.support.expected_conditions.url_changes(url)
+Bases: object
+
+An expectation for checking the current url. url is the expected url, which must not be an exact match returns True if the url is different, false otherwise.
+
+
+class selenium.webdriver.support.expected_conditions.url_contains(url)
+Bases: object
+
+An expectation for checking that the current url contains a case-sensitive substring. url is the fragment of url expected, returns True when the url matches, False otherwise
+
+class selenium.webdriver.support.expected_conditions.url_matches(pattern)
+Bases: object
+
+An expectation for checking the current url. pattern is the expected pattern, which must be an exact match returns True if the url matches, false otherwise.
+
+class selenium.webdriver.support.expected_conditions.url_to_be(url)
+Bases: object
+
+An expectation for checking the current url. url is the expected url, which must be an exact match returns True if the url matches, false otherwise.
+
+class selenium.webdriver.support.expected_conditions.visibility_of(element)
+Bases: object
+
+An expectation for checking that an element, known to be present on the DOM of a page, is visible. Visibility means that the element is not only displayed but also has a height and width that is greater than 0. element is the WebElement returns the (same) WebElement once it is visible
+
+class selenium.webdriver.support.expected_conditions.visibility_of_all_elements_located(locator)
+Bases: object
+
+An expectation for checking that all elements are present on the DOM of a page and visible. Visibility means that the elements are not only displayed but also has a height and width that is greater than 0. locator - used to find the elements returns the list of WebElements once they are located and visible
+
+
+class selenium.webdriver.support.expected_conditions.visibility_of_any_elements_located(locator)
+Bases: object
+
+An expectation for checking that there is at least one element visible on a web page. locator is used to find the element returns the list of WebElements once they are located
+
+
+class selenium.webdriver.support.expected_conditions.visibility_of_element_located(locator)
+Bases: object
+
+An expectation for checking that an element is present on the DOM of a page and visible. Visibility means that the element is not only displayed but also has a height and width that is greater than 0. locator - used to find the element returns the WebElement once it is located and visible
 
 
 
