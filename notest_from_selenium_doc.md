@@ -107,9 +107,7 @@ To move backward and forward in your browser’s history:
 driver.forward()
 driver.back()
 
-## 5.0
-
-Expected Conditions
+## 5.0 Expected Conditions
 
 There are some common conditions that are frequently of use when automating web browsers. Listed below are the names of each. Selenium Python binding provides some convenience methods so you don’t have to code an expected_condition class yourself or create your own utility package for them.
 
