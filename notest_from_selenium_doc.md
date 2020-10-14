@@ -7,7 +7,7 @@ While running the Selenium server, you could see a message looking like this:
 ```15:43:07.541 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub```
 The above line says that you can use this URL for connecting to remote WebDriver. Here are some examples:
 
-```python 
+
 from selenium import webdriver
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
@@ -60,7 +60,7 @@ Alternatively, WebDriver has the convenience method “submit” on every elemen
 element.submit()
 
 
-3.3. Drag and drop
+## 3.3. Drag and drop
 You can use drag and drop, either moving an element by a certain amount, or on to another element:
 
 element = driver.find_element_by_name("source")
@@ -71,7 +71,7 @@ action_chains = ActionChains(driver)
 action_chains.drag_and_drop(element, target).perform()
 
 
-3.4. Moving between windows and frames
+## 3.4. Moving between windows and frames
 It’s rare for a modern web application not to have any frames or to be constrained to a single window. WebDriver supports moving between named windows using the “switch_to_window” method:
 
 driver.switch_to_window("windowName")
@@ -94,12 +94,12 @@ Once we are done with working on frames, we will have to come back to the parent
 
 driver.switch_to_default_content()
 
-3.5. Popup dialogs
+## 3.5. Popup dialogs
 
 alert = driver.switch_to.alert
 This will return the currently open alert object. With this object, you can now accept, dismiss, read its contents or even type into a prompt. This interface works equally well on alerts, confirms, prompts. Refer to the API documentation for more information.
 
-3.6. Navigation: history and location
+## 3.6. Navigation: history and location
 
 driver.get("http://www.example.com")
 To move backward and forward in your browser’s history:
@@ -107,7 +107,7 @@ To move backward and forward in your browser’s history:
 driver.forward()
 driver.back()
 
-5.0
+## 5.0
 
 Expected Conditions
 
@@ -131,7 +131,7 @@ element_selection_state_to_be
 element_located_selection_state_to_be
 alert_is_present
 
-6. Actions   Chains >> https://selenium-python.readthedocs.io/api.html#module-selenium.webdriver.common.action_chains
+## 6. Actions   Chains >> https://selenium-python.readthedocs.io/api.html#module-selenium.webdriver.common.action_chains
 
 ActionChains can be used in a chain pattern:
 
@@ -145,7 +145,7 @@ Example, pressing ctrl+c:
 
 ActionChains(driver).key_down(Keys.CONTROL).send_keys('c').key_up(Keys.CONTROL).perform()
 
-7.3. Alerts
+## 7.3. Alerts
 The Alert implementation.
 
 class selenium.webdriver.common.alert.Alert(driver)
@@ -165,8 +165,8 @@ name_prompt = Alert(driver) name_prompt.send_keys(“Willian Shakesphere”) nam
 Reading a the text of a prompt for verification:
 
 alert_text = Alert(driver).text self.assertEqual(“Do you wish to quit?”, alert_text)
-```
-## II. Using Selenium with remote WebDriver   
+
+# II. Using Selenium with remote WebDriver   
 
 https://selenium-python.readthedocs.io/getting-started.html#using-selenium-with-remote-webdriver
 
@@ -215,12 +215,12 @@ from selenium import webdriver
 
 selenium_grid_url = "http://198.0.0.1:4444/wd/hub"
 
-# Create a desired capabilities object as a starting point.
+## Create a desired capabilities object as a starting point.
 capabilities = DesiredCapabilities.FIREFOX.copy()
 capabilities['platform'] = "WINDOWS"
 capabilities['version'] = "10"
 
-# Instantiate an instance of Remote WebDriver with the desired capabilities.
+## Instantiate an instance of Remote WebDriver with the desired capabilities.
 driver = webdriver.Remote(desired_capabilities=capabilities,
                           command_executor=selenium_grid_url)
 Note: Always use ‘.copy()’ on the DesiredCapabilities object to avoid the side effects of altering the Global class instance.
@@ -239,7 +239,7 @@ PHANTOMJS = {'browserName': 'phantomjs', 'javascriptEnabled': True, 'platform': 
 SAFARI = {'browserName': 'safari', 'platform': 'MAC', 'version': ''}
 WEBKITGTK = {'browserName': 'MiniBrowser', 'platform': 'ANY', 'version': ''}
 
-7.7. Touch Actions
+## 7.7. Touch Actions
 The Touch Actions implementation
 
 class selenium.webdriver.common.touch_actions.TouchActions(driver)
@@ -247,7 +247,7 @@ Bases: object
 
 Generate touch actions. Works like ActionChains; actions are stored in the TouchActions object and are fired with perform().
 
-7.8. Proxy
+## 7.8. Proxy
 The Proxy implementation.
 
 class selenium.webdriver.common.proxy.Proxy(raw=None)
@@ -255,7 +255,7 @@ Bases: object
 
 Proxy contains information about proxy type and necessary proxy settings.
 
-7.9. Utilities
+## 7.9. Utilities
 The Utils methods.
 
 selenium.webdriver.common.utils.find_connectable_ip(host, port=None)
@@ -271,12 +271,12 @@ port - Optional port number.
 Returns:	
 A single IP address, as a string. If any IPv4 address is found, one is returned. Otherwise, if any IPv6 address is found, one is returned. If neither, then None is returned.
 
-7.11. Application Cache
+## 7.11. Application Cache
 The ApplicationCache implementaion.
 
 class selenium.webdriver.common.html5.application_cache.ApplicationCache(driver)
 
-7.20. Remote WebDriver
+## 7.20. Remote WebDriver
 The WebDriver implementation.
 
 class selenium.webdriver.remote.webdriver.WebDriver(command_executor='http://127.0.0.1:4444/wd/hub', desired_capabilities=None, browser_profile=None, proxy=None, keep_alive=False, file_detector=None, options=None)
@@ -312,9 +312,9 @@ komendy  https://selenium-python.readthedocs.io/api.html#module-selenium.webdriv
 
 web element https://selenium-python.readthedocs.io/api.html#module-selenium.webdriver.remote.webelement
 
-7.22. Remote WebDriver Command¶ https://selenium-python.readthedocs.io/api.html#module-selenium.webdriver.remote.command
+## 7.22. Remote WebDriver Command¶ https://selenium-python.readthedocs.io/api.html#module-selenium.webdriver.remote.command
 
-7.28. Android WebDriver
+## 7.28. Android WebDriver
 class selenium.webdriver.android.webdriver.WebDriver(host='localhost', port=4444, desired_capabilities={'browserName': 'android', 'platform': 'ANDROID', 'version': ''})
 Bases: selenium.webdriver.remote.webdriver.WebDriver
 
@@ -330,7 +330,7 @@ host - location of where selendroid is running
 port - port that selendroid is running on
 desired_capabilities: Dictionary object with capabilities
 
-7.32. Safari WebDriver
+## 7.32. Safari WebDriver
 class selenium.webdriver.safari.webdriver.WebDriver(port=0, executable_path='/usr/bin/safaridriver', reuse_service=False, desired_capabilities={'browserName': 'safari', 'platform': 'MAC', 'version': ''}, quiet=False, keep_alive=True, service_args=None)
 Bases: selenium.webdriver.remote.webdriver.WebDriver
 
@@ -356,7 +356,7 @@ Closes the browser and shuts down the SafariDriver executable that is started wh
 set_permission(permission, value)
 
 
-7.33. Safari WebDriver Service
+## 7.33. Safari WebDriver Service
 
 class selenium.webdriver.safari.service.Service(executable_path, port=0, quiet=False, service_args=None)
 Bases: selenium.webdriver.common.service.Service
@@ -378,7 +378,7 @@ Gets the url of the SafariDriver Service
 https://selenium-python.readthedocs.io/api.html#module-selenium.webdriver.support.wait
 
 
-7.38. Abstract Event Listener Support
+## 7.38. Abstract Event Listener Support
 class selenium.webdriver.support.abstract_event_listener.AbstractEventListener
 Bases: object
 
@@ -404,12 +404,7 @@ before_navigate_to(url, driver)
 before_quit(driver)
 on_exception(exception, driver)
 
-7.39. Expected conditions Support  https://selenium-python.readthedocs.io/api.html#module-selenium.webdriver.support.expected_conditions
-
-
-
-
-```
+## 7.39. Expected conditions Support  https://selenium-python.readthedocs.io/api.html#module-selenium.webdriver.support.expected_conditions
 
 
 
@@ -417,5 +412,9 @@ on_exception(exception, driver)
 
 
 
-```
+
+
+
+
+
 
