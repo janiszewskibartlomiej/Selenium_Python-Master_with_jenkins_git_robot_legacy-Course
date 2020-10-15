@@ -406,6 +406,8 @@ on_exception(exception, driver)
 
 
 ## 7.39. Expected conditions Support
+
+```pthon
 class selenium.webdriver.support.expected_conditions.alert_is_present
 Bases: object
 
@@ -544,7 +546,7 @@ class selenium.webdriver.support.expected_conditions.visibility_of_element_locat
 Bases: object
 
 An expectation for checking that an element is present on the DOM of a page and visible. Visibility means that the element is not only displayed but also has a height and width that is greater than 0. locator - used to find the element returns the WebElement once it is located and visible
-
+```
 
 
 
