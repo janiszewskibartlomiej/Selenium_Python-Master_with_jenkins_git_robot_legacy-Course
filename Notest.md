@@ -312,6 +312,8 @@ wk.save("D:/.../test_write_openpyxl.xlsx")
 
 pytest -k nazwa_pliku lub nazwa_testu    flaga k po nazwie szuka
 pytest -v >> verbose wiecej informacji na temat testu
+pytest -s >> drukuje printy z kodu  do konsoli
+
 @pytest.mark.skip("message) z ta flaga jest pomijane
 
 @pytest.mark.skipif(a>100, reason = "message")  >> jezeli ten warunek jest spelniony to bedzie skip i dostajemy message
