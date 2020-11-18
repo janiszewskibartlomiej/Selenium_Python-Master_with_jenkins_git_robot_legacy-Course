@@ -548,7 +548,14 @@ Bases: object
 An expectation for checking that an element is present on the DOM of a page and visible. Visibility means that the element is not only displayed but also has a height and width that is greater than 0. locator - used to find the element returns the WebElement once it is located and visible
 ```
 
+### Relative Locators
+Selenium 4 brings Relative Locators which are previously called as Friendly Locators. This functionality was added to help you locate elements that are nearby other elements. The Available Relative Locators are:
 
+above
+below
+toLeftOf
+toRightOf
+near
 
 
 
