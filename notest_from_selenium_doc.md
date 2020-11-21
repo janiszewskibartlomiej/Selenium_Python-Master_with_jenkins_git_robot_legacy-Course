@@ -760,3 +760,80 @@ driver.get("http://www.google.com")
 search_form = driver.find_element(By.TAG_NAME, "form")
 search_box = search_form.find_element(By.NAME, "q")
 search_box.send_keys("webdriver")
+
+
+## Get Active Element
+It is used to track (or) find DOM element which has the focus in the current browsing context.
+
+
+  from selenium import webdriver
+  from selenium.webdriver.common.by import By
+
+  driver = webdriver.Chrome()
+  driver.get("https://www.google.com")
+  driver.find_element(By.CSS_SELECTOR, '[name="q"]').send_keys("webElement")
+
+  # Get attribute of current active element
+  attr = driver.switch_to.active_element.get_attribute("title")
+  print(attr)
+  
+  
+  
+ ## Is Element Enabled
+This method is used to check if the connected Element is enabled or disabled on a webpage. Returns a boolean value, True if the connected element is enabled in the current browsing context else returns false.
+
+# Navigate to url
+driver.get("http://www.google.com")
+   
+# Returns true if element is enabled else returns false
+value = driver.find_element(By.NAME, 'btnK').is_enabled()
+  
+## Is Element Selected
+This method determines if the referenced Element is Selected or not. This method is widely used on Check boxes, radio buttons, input elements, and option elements.
+
+Returns a boolean value, True if referenced element is selected in the current browsing context else returns false.
+
+# Navigate to url
+driver.get("https://the-internet.herokuapp.com/checkboxes")
+
+# Returns true if element is checked else returns false
+value = driver.find_element(By.CSS_SELECTOR, "input[type='checkbox']:first-of-type").is_selected()
+  
+Get Element TagName
+It is used to fetch the TagName of the referenced Element which has the focus in the current browsing context.
+
+# Navigate to url
+driver.get("https://www.example.com")
+
+# Returns TagName of the element
+attr = driver.find_element(By.CSS_SELECTOR, "h1").tag_name
+  
+## Get Element Rect
+It is used to fetch the dimensions and coordinates of the referenced element.
+
+The fetched data body contain the following details:
+
+X-axis position from the top-lef corner of the element
+y-axis position from the top-lef corner of the element
+Height of the element
+Width of the element
+
+
+# Navigate to url
+driver.get("https://www.example.com")
+    
+# Returns height, width, x and y coordinates referenced element
+res = driver.find_element(By.CSS_SELECTOR, "h1").rect
+  
+## Get Element CSS Value
+Retrieves the value of specified computed style property of an element in the current browsing context.
+
+
+
+# Navigate to Url
+driver.get('https://www.example.com')
+
+# Retrieves the computed style property 'color' of linktext
+cssValue = driver.findElement(By.LINK_TEXT, "More information...").value_of_css_property('color')
+
+  
