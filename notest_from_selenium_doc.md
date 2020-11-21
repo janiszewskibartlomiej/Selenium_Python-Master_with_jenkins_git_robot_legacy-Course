@@ -681,3 +681,22 @@ driver.get("http://somedomain/url_that_delays_loading")
 wait = WebDriverWait(driver, 10, poll_frequency=1, ignored_exceptions=[ElementNotVisibleException, ElementNotSelectableException])
 element = wait.until(EC.element_to_be_clickable((By.XPATH, "//div")))
   
+  
+  ## PROXY
+
+from selenium import webdriver
+
+PROXY = "<HOST:PORT>"
+webdriver.DesiredCapabilities.FIREFOX['proxy'] = {
+    "httpProxy": PROXY,
+    "ftpProxy": PROXY,
+    "sslProxy": PROXY,
+    "proxyType": "MANUAL",
+
+}
+
+with webdriver.Firefox() as driver:
+    # Open URL
+    driver.get("https://selenium.dev")
+
+  
