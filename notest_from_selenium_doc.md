@@ -671,3 +671,13 @@ It is also possible to use the index of the frame, such as can be queried using 
 // Switches to the second frame  
 driver.switchTo().frame(1);
   
+## FluentWait
+FluentWait instance defines the maximum amount of time to wait for a condition, as well as the frequency with which to check the condition.
+
+Users may configure the wait to ignore specific types of exceptions whilst waiting, such as NoSuchElementException when searching for an element on the page.
+
+driver = Firefox()
+driver.get("http://somedomain/url_that_delays_loading")
+wait = WebDriverWait(driver, 10, poll_frequency=1, ignored_exceptions=[ElementNotVisibleException, ElementNotSelectableException])
+element = wait.until(EC.element_to_be_clickable((By.XPATH, "//div")))
+  
