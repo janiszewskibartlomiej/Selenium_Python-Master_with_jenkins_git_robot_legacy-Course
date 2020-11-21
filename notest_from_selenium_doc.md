@@ -837,3 +837,25 @@ driver.get('https://www.example.com')
 cssValue = driver.findElement(By.LINK_TEXT, "More information...").value_of_css_property('color')
 
   
+# KEYS
+
+
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+driver = webdriver.Chrome()
+
+# Navigate to url
+
+driver.get("http://www.google.com")
+
+# Store google search box WebElement
+
+search = driver.find_element(By.NAME, "q")
+
+action = webdriver.ActionChains(driver)
+
+# Enters text "qwerty" with keyDown SHIFT key and after keyUp SHIFT key (QWERTYqwerty)
+
+action.key_down(Keys.SHIFT).send_keys_to_element(search, "qwerty").key_up(Keys.SHIFT).send_keys("qwerty").perform()
+  
