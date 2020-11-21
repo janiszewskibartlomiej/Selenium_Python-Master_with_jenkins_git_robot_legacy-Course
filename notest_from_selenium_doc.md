@@ -747,3 +747,16 @@ driver.get("http://www.google.com")
 driver.quit()
 
   
+## Find Element From Element
+It is used to find a child element within the context of parent element. To achieve this, the parent WebElement is chained with ‘findElement’ to access child elements
+
+Java Python C# Ruby JavaScript Kotlin
+
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+
+driver = webdriver.Firefox()
+driver.get("http://www.google.com")
+search_form = driver.find_element(By.TAG_NAME, "form")
+search_box = search_form.find_element(By.NAME, "q")
+search_box.send_keys("webdriver")
