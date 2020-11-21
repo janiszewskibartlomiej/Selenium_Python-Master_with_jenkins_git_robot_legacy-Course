@@ -700,3 +700,50 @@ with webdriver.Firefox() as driver:
     driver.get("https://selenium.dev")
 
   
+# Page loading strategy
+
+When Selenium loads a page/url by default it follows a default configuration with pageLoadStrategy set to normal. To make Selenium not to wait for full page load we can configure the pageLoadStrategy. pageLoadStrategy supports 3 different values as follows:
+
+normal (full page load)
+eager (interactive)
+none
+Here is the code block to configure the pageLoadStrategy :
+
+Firefox :
+
+from selenium import webdriver
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+
+caps = DesiredCapabilities().FIREFOX
+caps["pageLoadStrategy"] = "normal"  #  complete
+#caps["pageLoadStrategy"] = "eager"  #  interactive
+#caps["pageLoadStrategy"] = "none"
+driver = webdriver.Firefox(desired_capabilities=caps, executable_path=r'C:\path\to\geckodriver.exe')
+driver.get("http://google.com")
+Chrome :
+
+from selenium import webdriver
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+
+caps = DesiredCapabilities().CHROME
+caps["pageLoadStrategy"] = "normal"  #  complete
+#caps["pageLoadStrategy"] = "eager"  #  interactive
+#caps["pageLoadStrategy"] = "none"
+driver = webdriver.Chrome(desired_capabilities=caps, executable_path=r'C:\path\to\chromedriver.exe')
+driver.get("http://google.com")
+
+
+alternatzwnie
+
+
+
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+options = Options()
+options.page_load_strategy = 'normal'
+driver = webdriver.Chrome(options=options)
+# Navigate to url
+driver.get("http://www.google.com")
+driver.quit()
+
+  
