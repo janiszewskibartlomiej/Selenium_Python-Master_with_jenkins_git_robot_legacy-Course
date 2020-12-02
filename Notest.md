@@ -10,6 +10,8 @@ pip list >  pokazuje wszytskie dostepne/zainstalowane biblioteki
 
 id, name, class name, css, xpath, link, REgEx
 
+##  Preferred selector order: id > name > css > xpath
+
 
 3. CSS Locator
 
