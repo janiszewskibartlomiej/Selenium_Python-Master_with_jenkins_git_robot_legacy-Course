@@ -8,11 +8,12 @@ pip list >  pokazuje wszytskie dostepne/zainstalowane biblioteki
 
 2. Locators
 
-id, name, class name, css, xpath, link, REgEx
+id, name, class name, css, xpath, link, REgEx 
+```
 
 ##  Preferred selector order: id > name > css > xpath
 
-
+``` python
 3. CSS Locator
 
 * id > #email or input#email
