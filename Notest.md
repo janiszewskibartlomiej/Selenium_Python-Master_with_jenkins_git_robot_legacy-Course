@@ -585,4 +585,54 @@ features
 
 odpalic mozna np > `behave features`
 
+Przekazywanie zmiennych pomiedzy funkcjami testowymi poprzez obiekt context  np context.driver = Chrome()
+
+odpalanie scenario po tagu [tag nadany `@smoke`]  behave --tags=smoke,kolejnyTag
+
+aby odpalic testy nalerzce do obu tagow to trzeba behave --tags=smoke --tags=koljnyTagZTegoSamegoTestu
+
+## environment file >> 
+def before_all(context):
+context.driver = Chrome()
+
+def after_all(context):
+context.driver.close()
+
+jeden driver na wszytskie testy i dna metoda close()
+
+alternatywan to podzial na *feature*:
+
+def before_feature(context, feature):
+context.driver = Chrome()
+
+def after_feature(context, feature):
+context.driver.close()
+
+lub *scenario*:
+
+def before_scenario(context, scenario):
+context.driver = Chrome()
+
+def after_scenario(context, scenario):
+context.driver.close()
+
+mozemy rowniez uzwyac metod before i after jako tagow:
+
+def before_tag(context, tag):
+context.driver = Chrome()
+
+def after_tag(context, tag):
+context.driver.close()
+
+*Rapoty*
+
+pip install allure-behave
+
+odpalamy testy z flaga zapisy danych chyba w json
+
+`behave -f allure_behave.formatter:AllureFormater -o pathToLocation`
+
+a nastepnie tworzymy html z konsoli
+
+`allure serve pathTolocationGeneratedData`
 ```
