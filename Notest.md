@@ -578,9 +578,11 @@ Feature: define End to End scenario
 22. BEHAVE
 
 features
-- steps
-  - step_definition.py
+ - steps
+   - step_definition.py
 -environment.py
 - *.feature
+
+
 
 ```
