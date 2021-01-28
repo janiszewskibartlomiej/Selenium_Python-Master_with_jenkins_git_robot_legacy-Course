@@ -583,6 +583,6 @@ features
 -environment.py
 - *.feature
 
-
+odpalic mozna np > `behave features`
 
 ```
