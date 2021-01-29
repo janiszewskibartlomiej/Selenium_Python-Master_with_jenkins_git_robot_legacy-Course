@@ -648,4 +648,12 @@ git remote add origin "adres url"
 
 git push origin master  - wrzucmy na zdlane repo
 
+24. Jenkins
+
+start server jenkins >> `java -jar "nazwaPliku_war.tmp" --httpPort=8080
+
+
+
+
+
 ```
