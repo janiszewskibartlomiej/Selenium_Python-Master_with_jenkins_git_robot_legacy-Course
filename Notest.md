@@ -635,4 +635,17 @@ odpalamy testy z flaga zapisy danych chyba w json
 a nastepnie tworzymy html z konsoli
 
 `allure serve pathTolocationGeneratedData`
+
+23. GIT
+
+git diff nazwaPliku.xxx  
+
+git checkout -- nazwaPliku.xx >> przelaczamy sie na plik przed zmianami
+
+git remote -v >> pokazuje zdalne repo ploczaczone z lokalnym
+
+git remote add origin "adres url"
+
+git push origin master  - wrzucmy na zdlane repo
+
 ```
