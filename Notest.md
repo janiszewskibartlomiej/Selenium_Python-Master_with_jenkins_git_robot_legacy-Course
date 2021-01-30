@@ -666,4 +666,17 @@ i w http://localhost:8086/configureTools/ dodac nazwe ALLURE i direction path
 
 w configu projektu dodajemy post-buid-Actions i wpisujemy katalog gdzie sa generowane raporty Reports bo w konsoli dodajemy pytest --alluredir=./Reports test_scenarios
 
+
+w konsoli wpisujemy komendy:
+
+set Path=%PYTHON_HOME%;%Path%
+rmdir /s /q Reports   # usuwamy aby dane sie nie dopisywaly w danym buildzie
+rmdir /s /q allure-report  # usuwamy aby dane sie nie dopisywaly w danym buildzie
+pip install -r requirements-test.txt
+cd test_scenarios
+
+pytest --alluredir=.Reports
+
+envy dodalem za pomoca konsoli  echo klucz=wartosc >> .env
+
 ```
