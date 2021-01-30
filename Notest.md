@@ -652,8 +652,15 @@ git push origin master  - wrzucmy na zdlane repo
 
 start server jenkins >> `java -jar "nazwaPliku_war.tmp" --httpPort=8080
 
+konfiguracja java w http://localhost:8086/configureTools > JDK instalation trzeba ppodac nazwe dowolna i path to jdk folder
 
+w tej samej lokalizacji config dodac path to git.exe
 
+dodat pythona do jenkins poprzez http://localhost:8080/configure  zaznaczyc Environment variables i doac path do katalu instalacji python a druga do katalogu skrypt w python
+
+http://localhost:8086/pluginManager/available  dodac allure
+
+potem zaciagnac allure comandline
 
 
 ```
