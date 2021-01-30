@@ -662,5 +662,8 @@ http://localhost:8086/pluginManager/available  dodac allure
 
 potem zaciagnac allure comandline
 
+i w http://localhost:8086/configureTools/ dodac nazwe ALLURE i direction path 
+
+w configu projektu dodajemy post-buid-Actions i wpisujemy katalog gdzie sa generowane raporty Reports bo w konsoli dodajemy pytest --alluredir=./Reports test_scenarios
 
 ```
