@@ -679,4 +679,19 @@ pytest --alluredir=.Reports
 
 envy dodalem za pomoca konsoli  echo klucz=wartosc >> .env
 
+25. Robot framework
+
+trzeba w pycharm zaintalowac plugin 'IntelliBot @SeleniumLibrary'
+
+pip install robotframework 
+
+pip install robotframework-seleniumlibrary
+
+pliki.robot
+
+https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html
+
+wzorce w resources/plik.robot
+
+
 ```
