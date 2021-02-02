@@ -42,7 +42,7 @@ print("After changing value, first value is =  " + str(input_num_a))
 print("After changing value, second value is =  " + str(input_num_b))
 
 
-Print * Rectangle
+#Print * Rectangle
 
 #  Print * Rectangle
  
@@ -50,7 +50,7 @@ for i in range(1,6):
     for j in range(1, 6):
         print("*",end='')    #  By default line ended with new line, here we define, nothing to be added at the end of line
     print()
-Print * Rectangle with hollow inside
+#Print * Rectangle with hollow inside
 
 #  Print * Rectangle
  

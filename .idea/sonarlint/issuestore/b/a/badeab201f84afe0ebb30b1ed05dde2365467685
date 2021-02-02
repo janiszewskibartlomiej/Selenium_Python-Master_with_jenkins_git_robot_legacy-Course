@@ -1,0 +1,19 @@
+
+mpython:S1192ˆ"TDefine a constant instead of duplicating this literal 'installed-files.txt' 3 times.(Ç™àè
+hpython:S1192ÿ"JDefine a constant instead of duplicating this literal '.egg-info' 3 times.(ĞÁØÌûÿÿÿÿ
+dpython:S5607ª"KFix this invalid "<<" operation between incompatible types (float and int).(…‚û°
+rpython:S3776¤"TRefactor this function to reduce its Cognitive Complexity from 30 to the 15 allowed.(ôÄúãşÿÿÿÿ
+epython:S1134Ì"LTake the required action to fix the issue indicated by this "FIXME" comment.(Ë™ËÆ
+rpython:S3776İ"TRefactor this function to reduce its Cognitive Complexity from 36 to the 15 allowed.(¿Ò’‰şÿÿÿÿ
+python:S1871ü"cEither merge this branch with the identical one on line "505" or change one of the implementations.(³¹Õûÿÿÿÿ
+rpython:S3776Ò"TRefactor this function to reduce its Cognitive Complexity from 58 to the 15 allowed.(ÕúüŒûÿÿÿÿ
+jpython:S1134"LTake the required action to fix the issue indicated by this "FIXME" comment.(Âˆù©ÿÿÿÿÿ
+mpython:S3776…"TRefactor this function to reduce its Cognitive Complexity from 22 to the 15 allowed.(‚ºş÷
+Ipython:S5806"+Rename this variable; it shadows a builtin.(½åïäøÿÿÿÿ
+Ipython:S5806¢"+Rename this variable; it shadows a builtin.(µµÈíúÿÿÿÿ
+mpython:S3776É"TRefactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.(¦í®Œ
+epython:S1134Œ"LTake the required action to fix the issue indicated by this "FIXME" comment.(¼ßºÖ
+jpython:S1134"LTake the required action to fix the issue indicated by this "FIXME" comment.(ÖÁš¦üÿÿÿÿ
+jpython:S1134ã"LTake the required action to fix the issue indicated by this "FIXME" comment.(ïü¢ìúÿÿÿÿ
+epython:S1134Ú"LTake the required action to fix the issue indicated by this "FIXME" comment.(ìğèÕ
+mpython:S3776â"TRefactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.(æè¼ù

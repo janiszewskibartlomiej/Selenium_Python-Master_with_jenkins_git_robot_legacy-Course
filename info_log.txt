@@ -1,0 +1,14 @@
+2020-07-29 11:43:53,714 - __main__ - INFO - Information
+2020-07-29 11:43:53,714 - __main__ - WARNING - warning
+2020-07-29 11:44:04,711 - __main__ - INFO - This is log info
+2020-07-29 11:45:27,319 - __main__ - INFO - Information
+2020-07-29 11:45:27,319 - __main__ - WARNING - warning
+2020-07-29 11:45:36,500 - __main__ - INFO - This is log info
+2020-07-29 11:47:36,780 - __main__ - INFO - Information
+2020-07-29 11:47:36,780 - __main__ - WARNING - warning
+2020-07-29 11:47:47,015 - __main__ - INFO - This is log info
+2020-07-29 11:52:11,125 - __main__ - INFO - Information
+2020-07-29 11:52:11,125 - __main__ - WARNING - warning
+2020-07-29 11:52:23,387 - __main__ - INFO - Information
+2020-07-29 11:52:23,387 - __main__ - WARNING - warning
+2020-07-29 11:52:32,780 - __main__ - INFO - This is log info

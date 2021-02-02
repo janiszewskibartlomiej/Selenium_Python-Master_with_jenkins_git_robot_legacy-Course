@@ -8,8 +8,8 @@ import pytest
 
 @pytest.fixture()
 def environment_setup():
-    global driver
-    path = "C:\\Users\\TestingWorld\\Downloads\\chromedriver_win32 (3)\\chromedriver.exe"
+    # global driver
+    path = "D:\\GITHUB\\Selenium_Python_beginner_to_advanced_with_jenkins_git_robot_legacy-Course\\drivers\\chromedriver.exe"
     driver = Chrome(executable_path=path)
     driver.get("http://www.theTestingWorld.com/testings")
     driver.maximize_window()
@@ -17,6 +17,7 @@ def environment_setup():
     driver.close()
 
 def test_verify_registration(environment_setup):
+    driver = environment_setup
     driver.find_element_by_xpath("//label[text()='Login']").click()
     driver.find_element_by_name("_txtUserName").send_keys("test")
     driver.find_element_by_name("_txtPassword").send_keys("test")
@@ -37,5 +38,8 @@ def test_verify_registration(environment_setup):
 
 
     driver.switch_to.window(mainWin)
+
+    # jak mamy cos w iframe to uzywamy
+    # driver.switch_to.frame("nazwa_iframe")
     print(driver.current_url)
 

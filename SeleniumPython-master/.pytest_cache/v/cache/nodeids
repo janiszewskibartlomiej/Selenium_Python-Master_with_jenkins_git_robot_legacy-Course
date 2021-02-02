@@ -4,5 +4,20 @@
   "test_FirstTestCase_firefox.py::test_case_firefox",
   "test_KeyboardOperations.py::test_mycase",
   "test_MouseOperations.py::test_mouseOperations",
-  "test_multiWindow.py::test_verify_registration"
+  "test_multiWindow.py::test_verify_registration",
+  "data_driven_testing.py::test_validation[data0]",
+  "data_driven_testing.py::test_validation[data1]",
+  "data_driven_testing.py::test_validation[data2]",
+  "data_driven_testing.py::test_validation[ff-data0]",
+  "data_driven_testing.py::test_validation[ff-data1]",
+  "data_driven_testing.py::test_validation[ff-data2]",
+  "data_driven_testing.py::test_validation[chrome-data0]",
+  "data_driven_testing.py::test_validation[chrome-data1]",
+  "data_driven_testing.py::test_validation[chrome-data2]",
+  "data_driven_testing.py::test_validation[firefox_driver-enter_username_and_password0]",
+  "data_driven_testing.py::test_validation[firefox_driver-enter_username_and_password1]",
+  "data_driven_testing.py::test_validation[firefox_driver-enter_username_and_password2]",
+  "data_driven_testing.py::test_validation[chrome_driver-enter_username_and_password0]",
+  "data_driven_testing.py::test_validation[chrome_driver-enter_username_and_password1]",
+  "data_driven_testing.py::test_validation[chrome_driver-enter_username_and_password2]"
 ]

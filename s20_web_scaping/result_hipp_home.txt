@@ -1,0 +1,2072 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+
+<meta charset="utf-8">
+<!-- 
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2020 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at https://typo3.org/
+-->
+
+<base href="https://hipp.pl">
+
+
+<meta name="generator" content="TYPO3 CMS" />
+<meta name="description" content="Nr 1 na świecie w kategorii ekologicznej żywności dla niemowląt. Wybierz: mleko modyfikowane COMBIOTIK®, HA, Comfort®, dania, zupki, desery, musy w tubkach oraz kosmetyki. Ekologiczną żywność dla dzieci produkujemy już od ponad 60 lat – Zaufaj Ekspertom! Dowiedz się więcej!" />
+<meta property="og:title" content="HiPP Strona główna" />
+<meta property="og:description" content="Nr 1 na świecie w kategorii ekologicznej żywności dla niemowląt. Wybierz: mleko modyfikowane COMBIOTIK®, HA, Comfort®, dania, zupki, desery, musy w tubkach oraz kosmetyki. Ekologiczną żywność dla dzieci produkujemy już od ponad 60 lat – Zaufaj Ekspertom! Dowiedz się więcej!" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="HiPP Strona główna" />
+<meta name="twitter:description" content="Nr 1 na świecie w kategorii ekologicznej żywności dla niemowląt. Wybierz: mleko modyfikowane COMBIOTIK®, HA, Comfort®, dania, zupki, desery, musy w tubkach oraz kosmetyki. Ekologiczną żywność dla dzieci produkujemy już od ponad 60 lat – Zaufaj Ekspertom! Dowiedz się więcej!" />
+
+
+<link rel="stylesheet" type="text/css" href="/typo3temp/assets/compressed/201e0387fd-4468138f68c9724fe341fb284c839da0.css?1595602511" media="all">
+<link rel="stylesheet" type="text/css" href="/typo3temp/assets/compressed/merged-3841fa47a94af6a8bb6d58131df12bb7-f226960f789a1b62ef621212e9099e64.css?1595602511" media="all">
+
+
+
+<script type="text/javascript">
+/*<![CDATA[*/
+var TYPO3 = TYPO3 || {};
+TYPO3.lang = {"showMore":"Show more","showLess":"Show less"};/*]]>*/
+</script>
+
+<script src="/typo3temp/assets/compressed/merged-a7d7b8ce31c50b37d7313f4b27450db4-2bea1ee8b5de741210a8dd3a26ca7595.js?1595602511" type="text/javascript"></script>
+
+
+
+        <link rel="icon" type="image/png" href="/typo3conf/ext/fnxlocal/Resources/Public/Hipp/2020/images/favicon.png" />        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="revisit" content="1 days">
+        <meta name="revisit-after" content="1 days">
+        <meta name="robots" content="index, follow">
+        <meta name="siteinfo" content="http://hipp.pl/robots.txt">
+        <meta name="google-site-verification" content="[none]"><title>HiPP Strona główna | Hipp Bio</title>            <script id="_etLoader"
+             data-secure-code="uuEtw3" data-preload-dc="data-preload-dc"
+             src="//static.etracker.com/code/e.js"></script>
+            <noscript><link rel="stylesheet" media="all" href="//www.etracker.de/cnt_css.php?et=uuEtw3&amp;v=4.0&amp;java=n&amp;et_pagename=&amp;et_areas=PL%2FPolska%20%28PL%29&amp;et_ilevel=&amp;et_target=&amp;et_lpage=&amp;et_trig=&amp;et_se=0&amp;et_cust=&amp;et_basket=&amp;et_url=https%3A%2F%2Fhipp.pl%2F%2F&amp;et_tag=&amp;et_sub=&amp;et_organisation=&amp;et_demographic" /></noscript>
+            <!-- etracker Tracklet END -->            <!-- Facebook Pixel Code -->
+            <script>
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window,document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '486887098358943');
+            fbq('track', 'PageView');
+            </script>
+            <noscript>
+            <img height="1" width="1"
+            src="https://www.facebook.com/tr?id=486887098358943&ev=PageView
+            &noscript=1"/>            <!-- Google Tag Manager (noscript) -->
+            <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-57LMNQ7"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+            <!-- End Google Tag Manager (noscript) -->
+
+            <script type="text/javascript">
+            /* <![CDATA[ */
+            var google_conversion_id = 978330633;
+            var google_custom_params = window.google_tag_params;
+            var google_remarketing_only = true;
+            /* ]]> */
+            </script>
+            <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+            </script>
+            <noscript>
+            <div style="display:inline;">
+            <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/978330633/?guid=ON&script=0"/>
+            </div>
+            </noscript>            <script src="//cdn.sarehub.com/clients/hipp-pl.js" async></script>
+<link rel="canonical" href="https://hipp.pl/"/>
+
+
+<!-- This site is optimized with the Yoast SEO for TYPO3 plugin - https://yoast.com/typo3-extensions-seo/ -->
+<script type="application/ld+json">[{"@context":"https://www.schema.org","@type":"WebSite","url":"https://hipp.pl/","name":"HiPP Strona g\u0142\u00f3wna"}]</script>
+</head>
+<body id="uid-1" class="">
+
+
+
+
+
+
+
+
+<script>
+      document.addEventListener('DOMContentLoaded', function(event) {
+            var
+                    expiryDays = "365",
+                    domain = "hipp.pl",
+                    dismissLabel = "OK",
+                    message = 'Drogi Użytkowniku naszej strony, aby dopasować stronę internetową do Twoich potrzeb i zainteresowań, wykorzystujemy tzw. pliki Cookies. Przeglądając naszą stronę internetową wyrażasz zgodę na otrzymywanie plików Cookies. Jednocześnie w każdej chwili możesz tak ustawić swoją przeglądarkę, aby informowała Cię o lokalizacji plików Cookies. Więcej informacji znajdziesz w <a href="/polityka-prywatnosci"> Polityce prywatności </a> ';
+
+            window.cookieconsent_options = {
+                  link: '',
+                  learnMore: '',
+                  target: '',
+                  theme: '',
+                  message: message,
+                  dismiss: dismissLabel,
+                  path: '/',
+                  domain: domain,
+                  container: 'body',
+                  expiryDays: expiryDays,
+                  markup: [
+
+                      '<div class="bebiprima-cookies">',
+                      '<div class="container">',
+                      '<div class="row">',
+                      '<div class="col-md-11">',
+                      '<p>{{options.message}}</p>',
+                      '</div>',
+                      '<div class="col-sm-1 align-self-center">',
+                      '<a href="#" class="close-classic" data-cc-event="click:dismiss"></a>',
+                      '</div>',
+                      '</div>',
+                      '</div>',
+                      '</div>',
+
+
+
+                  ]
+            };
+      });
+</script>
+
+
+
+<div class="page">
+    <div class="jsj">
+        <div class="main_container">
+            
+
+<header class="l-header">
+    <div class="container">
+        <div class="wrapper">
+            
+
+<div class="row">
+    <div class="col-xs-5 col-sm-6 col-md-3 l-header__mobile-second">
+        <div class="l-header__bio">
+            <img title="HiPP BIO" alt="HiPP BIO" src="/typo3temp/assets/_processed_/f/5/csm_BIO-lisc_0336380a1f.png" width="201" height="92" />
+        </div>
+    </div>
+    <div class="col-xs-7 col-sm-6 col-md-6 l-header__mobile-first">
+        <div class="l-header__logo">
+            <a href="/">
+                <img title="HiPP - Dla Najważniejszych na świecie" alt="HiPP - Dla Najważniejszych na świecie" src="/typo3conf/ext/fnxlocal/Resources/Public/Hipp/2020/images/logo_hipp_pl_PL.svg" width="248" height="90" />
+            </a>
+        </div>
+    </div>
+    <div class="col-sm-12 col-md-3">
+        <div class="head-right">
+            <div class="head-right-top">
+                <div class="skip-links">
+                    <div class="header-icons">
+                        <div class="skip-wrapper">
+                            
+                            <div id="header-search" class="skip-content">
+                                <div class="skip-content-inner">
+                                    <form role="search" action="/" method="post">
+                                        <div class="has-feedback has-search">
+                                            <button type="submit" class="form-control-feedback">
+                                                <span class="kkicon kkicon-search"></span>
+                                            </button>
+                                            <input name="zoom_query" type="text"
+                                                   class="form-control" placeholder="Szukaj">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skip-wrapper">
+                            <a href="javascript:void(0)" class="skip-link skip-account"
+                               data-target-element="#header-account" data-btattached="true">
+                                
+                                        <span class="kkicon kkicon-account"></span>
+                                    
+                                <span class="label">Konto</span>
+                            </a>
+                            <div id="header-account" class="skip-content">
+                                <div class="skip-content-inner">
+                                    <div class="text-center">
+                                        <div class="form-group">
+                                            
+                                                    <a class="btn btn--brand" href="/klub/zaloguj-sie">Zaloguj
+                                                    </a>
+                                                
+                                        </div>
+                                        <p class="color-brand">
+                                            
+                                                    <strong>Cieszymy się, że z nami jesteś</strong>
+                                                
+                                        </p>
+                                        
+                                                <div class="skip-content-link">
+                                                    <a href="/klub/zarejestruj-sie">
+                                                        Zarejestruj się
+                                                    </a>
+                                                </div>
+                                                <div class="skip-content-link">
+                                                    <a href="/klub/korzysci-klubu">
+                                                        Korzyści
+                                                    </a>
+                                                </div>
+                                            
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skip-wrapper">
+                            <a class="skip-link skip-cart" href="/sklep">
+                                <span class="kkicon kkicon-cart"></span>
+                                <span class="label">Koszyk</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+            
+
+
+<div class="row">
+    <div class="col-lg-12">
+        <nav id="nav" role="navigation" class="m-menu">
+            <div class="block">
+
+                
+
+                <div class="menu-canvas navmenu navmenu-default navmenu-fixed-left in canvas-slid offcanvas">
+                    <ul class="nav navmenu-nav toggle">
+                        
+                        
+
+                        
+                            
+                                
+                                
+                                <li class="m-menu__item dropdown m-menu__item--brand-blue ">
+                                    
+    
+    
+    <a href="/mleko" class="">
+        
+            
+                    <span class="dropdown-toggle"></span>
+                
+        
+        Mleko
+    </a>
+
+
+                                    
+                                        
+                                        
+    
+    
+    
+            <ul class="dropdown-menu navmenu-nav ">
+                
+                    
+                        <li class="m-menu__item dropdown ">
+                            
+    
+    
+    <a href="/mleko/produkty" class="">
+        
+            
+                    <span class="dropdown-toggle dropdown-toggle-link" data-href="/mleko/produkty?open=1"></span>
+                
+        
+        Produkty
+    </a>
+
+                            
+                                
+    
+    
+    
+
+
+    
+
+    
+
+                            
+                        </li>
+                    
+                        <li class="m-menu__item dropdown ">
+                            
+    
+    
+    <a href="/mleko/karmienie-piersia" class="">
+        
+            
+                    <span class="dropdown-toggle dropdown-toggle-link" data-href="/mleko/karmienie-piersia?open=1"></span>
+                
+        
+        Karmienie piersią
+    </a>
+
+                            
+                                
+    
+    
+    
+
+
+    
+
+    
+
+                            
+                        </li>
+                    
+                        <li class="m-menu__item dropdown ">
+                            
+    
+    
+    <a href="/mleko/mleko-modyfikowane" class="">
+        
+            
+                    <span class="dropdown-toggle dropdown-toggle-link" data-href="/mleko/mleko-modyfikowane?open=1"></span>
+                
+        
+        Mleko modyfikowane
+    </a>
+
+                            
+                                
+    
+    
+    
+
+
+    
+
+    
+
+                            
+                        </li>
+                    
+                        <li class="m-menu__item  ">
+                            
+    
+    
+    <a href="/mleko/forum" class="">
+        
+        Forum
+    </a>
+
+                            
+                        </li>
+                    
+                        <li class="m-menu__item dropdown ">
+                            
+    
+    
+    <a href="/mleko/leksykon-mleczny" class="">
+        
+            
+                    <span class="dropdown-toggle dropdown-toggle-link" data-href="/mleko/leksykon-mleczny?open=1"></span>
+                
+        
+        Leksykon mleczny
+    </a>
+
+                            
+                                
+    
+    
+    
+
+
+    
+
+    
+
+                            
+                        </li>
+                    
+                        <li class="m-menu__item  ">
+                            
+    
+    
+    <a href="/mleko/nowa-receptura" class="">
+        
+        Nowa receptura
+    </a>
+
+                            
+                        </li>
+                    
+                
+            </ul>
+    
+
+
+    
+
+    
+
+                                    
+                                </li>
+                            
+                                
+                                
+                                <li class="m-menu__item dropdown m-menu__item--brand-green ">
+                                    
+    
+    
+    <a href="/zywienie-0-1" class="">
+        
+            
+                    <span class="dropdown-toggle"></span>
+                
+        
+        Żywienie 0-1
+    </a>
+
+
+                                    
+                                        
+                                        
+    
+    
+    
+            <ul class="dropdown-menu navmenu-nav ">
+                
+                    
+                        <li class="m-menu__item dropdown ">
+                            
+    
+    
+    <a href="/zywienie-0-1/aktualnosci" class="">
+        
+            
+                    <span class="dropdown-toggle dropdown-toggle-link" data-href="/zywienie-0-1/aktualnosci?open=1"></span>
+                
+        
+        Aktualności
+    </a>
+
+                            
+                                
+    
+    
+    
+
+
+    
+
+    
+
+                            
+                        </li>
+                    
+                        <li class="m-menu__item dropdown ">
+                            
+    
+    
+    <a href="/zywienie-0-1/produkty" class="">
+        
+            
+                    <span class="dropdown-toggle dropdown-toggle-link" data-href="/zywienie-0-1/produkty?open=1"></span>
+                
+        
+        Produkty
+    </a>
+
+                            
+                                
+    
+    
+    
+
+
+    
+
+    
+
+                            
+                        </li>
+                    
+                        <li class="m-menu__item dropdown ">
+                            
+    
+    
+    <a href="/zywienie-0-1/rozszerzanie-diety" class="">
+        
+            
+                    <span class="dropdown-toggle dropdown-toggle-link" data-href="/zywienie-0-1/rozszerzanie-diety?open=1"></span>
+                
+        
+        Rozszerzanie diety
+    </a>
+
+                            
+                                
+    
+    
+    
+
+
+    
+
+    
+
+                            
+                        </li>
+                    
+                        <li class="m-menu__item dropdown ">
+                            
+    
+    
+    <a href="/zywienie-0-1/poradnik" class="">
+        
+            
+                    <span class="dropdown-toggle dropdown-toggle-link" data-href="/zywienie-0-1/poradnik?open=1"></span>
+                
+        
+        Poradnik
+    </a>
+
+                            
+                                
+    
+    
+    
+
+
+    
+
+    
+
+                            
+                        </li>
+                    
+                        <li class="m-menu__item  ">
+                            
+    
+    
+    <a href="/zywienie-0-1/forum" class="">
+        
+        Forum
+    </a>
+
+                            
+                        </li>
+                    
+                        <li class="m-menu__item  ">
+                            
+    
+    
+    <a href="/zywienie-0-1/odkrywca-skladnikow" class="">
+        
+        Odkrywca składników
+    </a>
+
+                            
+                        </li>
+                    
+                
+            </ul>
+    
+
+
+    
+
+    
+
+                                    
+                                </li>
+                            
+                                
+                                
+                                <li class="m-menu__item dropdown m-menu__item--brand-orange ">
+                                    
+    
+    
+    <a href="/dzieci-1" class="">
+        
+            
+                    <span class="dropdown-toggle"></span>
+                
+        
+        Dzieci 1 +
+    </a>
+
+
+                                    
+                                        
+                                        
+    
+    
+    
+            <ul class="dropdown-menu navmenu-nav ">
+                
+                    
+                        <li class="m-menu__item dropdown ">
+                            
+    
+    
+    <a href="/dzieci-1/aktualnosci" class="">
+        
+            
+                    <span class="dropdown-toggle dropdown-toggle-link" data-href="/dzieci-1/aktualnosci?open=1"></span>
+                
+        
+        Aktualności
+    </a>
+
+                            
+                                
+    
+    
+    
+
+
+    
+
+    
+
+                            
+                        </li>
+                    
+                        <li class="m-menu__item dropdown ">
+                            
+    
+    
+    <a href="/dzieci-1/produkty" class="">
+        
+            
+                    <span class="dropdown-toggle dropdown-toggle-link" data-href="/dzieci-1/produkty?open=1"></span>
+                
+        
+        Produkty
+    </a>
+
+                            
+                                
+    
+    
+    
+
+
+    
+
+    
+
+                            
+                        </li>
+                    
+                        <li class="m-menu__item dropdown ">
+                            
+    
+    
+    <a href="/dzieci-1/poradnik" class="">
+        
+            
+                    <span class="dropdown-toggle dropdown-toggle-link" data-href="/dzieci-1/poradnik?open=1"></span>
+                
+        
+        Poradnik
+    </a>
+
+                            
+                                
+    
+    
+    
+
+
+    
+
+    
+
+                            
+                        </li>
+                    
+                        <li class="m-menu__item  ">
+                            
+    
+    
+    <a href="/dzieci-1/kontakt" class="">
+        
+        Kontakt
+    </a>
+
+                            
+                        </li>
+                    
+                        <li class="m-menu__item  ">
+                            
+    
+    
+    <a href="/dzieci-1/forum" class="">
+        
+        Forum
+    </a>
+
+                            
+                        </li>
+                    
+                
+            </ul>
+    
+
+
+    
+
+    
+
+                                    
+                                </li>
+                            
+                                
+                                
+                                <li class="m-menu__item dropdown m-menu__item--brand-pink ">
+                                    
+    
+    
+    <a href="/pielegnacja" class="">
+        
+            
+                    <span class="dropdown-toggle"></span>
+                
+        
+        Pielęgnacja
+    </a>
+
+
+                                    
+                                        
+                                        
+    
+    
+    
+            <ul class="dropdown-menu navmenu-nav ">
+                
+                    
+                        <li class="m-menu__item dropdown ">
+                            
+    
+    
+    <a href="/pielegnacja/produkty" class="">
+        
+            
+                    <span class="dropdown-toggle dropdown-toggle-link" data-href="/pielegnacja/produkty?open=1"></span>
+                
+        
+        Produkty
+    </a>
+
+                            
+                                
+    
+    
+    
+
+
+    
+
+    
+
+                            
+                        </li>
+                    
+                        <li class="m-menu__item  ">
+                            
+    
+    
+    <a href="/pielegnacja/dla-wrazliwej-skory" class="">
+        
+        Dla wrażliwej skóry
+    </a>
+
+                            
+                        </li>
+                    
+                        <li class="m-menu__item dropdown ">
+                            
+    
+    
+    <a href="/pielegnacja/poradnik" class="">
+        
+            
+                    <span class="dropdown-toggle dropdown-toggle-link" data-href="/pielegnacja/poradnik?open=1"></span>
+                
+        
+        Poradnik
+    </a>
+
+                            
+                                
+    
+    
+    
+
+
+    
+
+    
+
+                            
+                        </li>
+                    
+                        <li class="m-menu__item  ">
+                            
+    
+    
+    <a href="/pielegnacja/kontakt" class="">
+        
+        Kontakt
+    </a>
+
+                            
+                        </li>
+                    
+                        <li class="m-menu__item  ">
+                            
+    
+    
+    <a href="/pielegnacja/forum" class="">
+        
+        Forum
+    </a>
+
+                            
+                        </li>
+                    
+                
+            </ul>
+    
+
+
+    
+
+    
+
+                                    
+                                </li>
+                            
+                                
+                                
+                                <li class="m-menu__item dropdown m-menu__item--brand-lightorange ">
+                                    
+    
+    
+    <a href="/ciaza" class="">
+        
+            
+                    <span class="dropdown-toggle"></span>
+                
+        
+        Ciąża
+    </a>
+
+
+                                    
+                                        
+                                        
+    
+    
+    
+            <ul class="dropdown-menu navmenu-nav ">
+                
+                    
+                        <li class="m-menu__item dropdown ">
+                            
+    
+    
+    <a href="/ciaza/produkty" class="">
+        
+            
+                    <span class="dropdown-toggle dropdown-toggle-link" data-href="/ciaza/produkty?open=1"></span>
+                
+        
+        Produkty
+    </a>
+
+                            
+                                
+    
+    
+    
+
+
+    
+
+    
+
+                            
+                        </li>
+                    
+                        <li class="m-menu__item dropdown ">
+                            
+    
+    
+    <a href="/ciaza/poradnik" class="">
+        
+            
+                    <span class="dropdown-toggle dropdown-toggle-link" data-href="/ciaza/poradnik?open=1"></span>
+                
+        
+        Poradnik
+    </a>
+
+                            
+                                
+    
+    
+    
+
+
+    
+
+    
+
+                            
+                        </li>
+                    
+                        <li class="m-menu__item  ">
+                            
+    
+    
+    <a href="/ciaza/kontakt" class="">
+        
+        Kontakt
+    </a>
+
+                            
+                        </li>
+                    
+                        <li class="m-menu__item  ">
+                            
+    
+    
+    <a href="/ciaza/forum" class="">
+        
+        Forum
+    </a>
+
+                            
+                        </li>
+                    
+                
+            </ul>
+    
+
+
+    
+
+    
+
+                                    
+                                </li>
+                            
+                                
+                                
+                                <li class="m-menu__item dropdown m-menu__item--brand-purple ">
+                                    
+    
+    
+    <a href="/klub" class="">
+        
+            
+                    <span class="dropdown-toggle"></span>
+                
+        
+        Klub
+    </a>
+
+
+                                    
+                                        
+                                        
+    
+    
+    
+            <ul class="dropdown-menu navmenu-nav ">
+                
+                    
+                        <li class="m-menu__item  ">
+                            
+    
+    
+    <a href="/klub/korzysci-klubu" class="">
+        
+        Korzyści Klubu
+    </a>
+
+                            
+                        </li>
+                    
+                        <li class="m-menu__item  ">
+                            
+    
+    
+    <a href="/klub-logged-in/forum" class="">
+        
+        Forum
+    </a>
+
+                            
+                        </li>
+                    
+                        <li class="m-menu__item  ">
+                            
+    
+    
+    <a href="/klub/zaloguj-sie" class="">
+        
+        Zaloguj się
+    </a>
+
+                            
+                        </li>
+                    
+                        <li class="m-menu__item dropdown ">
+                            
+    
+    
+    <a href="/klub/zarejestruj-sie" class="">
+        
+            
+                    <span class="dropdown-toggle dropdown-toggle-link" data-href="/klub/zarejestruj-sie?open=1"></span>
+                
+        
+        Zarejestruj się
+    </a>
+
+                            
+                                
+    
+    
+    
+
+
+    
+
+    
+
+                            
+                        </li>
+                    
+                        <li class="m-menu__item  ">
+                            
+    
+    
+    <a href="/klub/pomoc-klubu-maluszka" class="">
+        
+        Pomoc Klubu Maluszka
+    </a>
+
+                            
+                        </li>
+                    
+                        <li class="m-menu__item dropdown ">
+                            
+    
+    
+    <a href="/klub/nie-pamietasz-hasla" class="">
+        
+            
+                    <span class="dropdown-toggle dropdown-toggle-link" data-href="/klub/nie-pamietasz-hasla?open=1"></span>
+                
+        
+        Nie pamiętasz hasła?
+    </a>
+
+                            
+                                
+    
+    
+    
+
+
+    
+
+    
+
+                            
+                        </li>
+                    
+                
+            </ul>
+    
+
+
+    
+
+    
+
+                                    
+                                </li>
+                            
+                                
+                                
+                                <li class="m-menu__item dropdown m-menu__item--brand-darkgreen ">
+                                    
+    
+    
+    <a href="/kontakt" class="">
+        
+            
+                    <span class="dropdown-toggle"></span>
+                
+        
+        O nas/Kontakt
+    </a>
+
+
+                                    
+                                        
+                                        
+    
+    
+    
+            <ul class="dropdown-menu navmenu-nav ">
+                
+                    
+                        <li class="m-menu__item dropdown ">
+                            
+    
+    
+    <a href="/kontakt/jakosc-bio" class="">
+        
+            
+                    <span class="dropdown-toggle dropdown-toggle-link" data-href="/kontakt/jakosc-bio?open=1"></span>
+                
+        
+        Jakość BIO
+    </a>
+
+                            
+                                
+    
+    
+    
+
+
+    
+
+    
+
+                            
+                        </li>
+                    
+                        <li class="m-menu__item dropdown ">
+                            
+    
+    
+    <a href="/kontakt/odkrywca-skladnikow" class="">
+        
+            
+                    <span class="dropdown-toggle dropdown-toggle-link" data-href="/kontakt/odkrywca-skladnikow?open=1"></span>
+                
+        
+        Odkrywca składników
+    </a>
+
+                            
+                                
+    
+    
+    
+
+
+    
+
+    
+
+                            
+                        </li>
+                    
+                        <li class="m-menu__item dropdown ">
+                            
+    
+    
+    <a href="/kontakt/firma" class="">
+        
+            
+                    <span class="dropdown-toggle dropdown-toggle-link" data-href="/kontakt/firma?open=1"></span>
+                
+        
+        Firma
+    </a>
+
+                            
+                                
+    
+    
+    
+
+
+    
+
+    
+
+                            
+                        </li>
+                    
+                        <li class="m-menu__item dropdown ">
+                            
+    
+    
+    <a href="/kontakt/kontakt" class="">
+        
+            
+                    <span class="dropdown-toggle dropdown-toggle-link" data-href="/kontakt/kontakt?open=1"></span>
+                
+        
+        Kontakt
+    </a>
+
+                            
+                                
+    
+    
+    
+
+
+    
+
+    
+
+                            
+                        </li>
+                    
+                        <li class="m-menu__item  ">
+                            
+    
+    
+    <a href="/kontakt/forum" class="">
+        
+        Forum
+    </a>
+
+                            
+                        </li>
+                    
+                
+            </ul>
+    
+
+
+    
+
+    
+
+                                    
+                                </li>
+                            
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+
+
+
+
+
+<span class="m-menu__button">
+    <span class="m-menu__button-bars">
+        <span class="m-menu__button-bar"></span>
+        <span class="m-menu__button-bar"></span>
+        <span class="m-menu__button-bar"></span>
+    </span>
+    <span class="m-menu__button-name">Menu</span>
+</span>
+
+
+
+        </div>
+    </div>
+</header>
+
+
+
+            
+    <main class="l-main">
+        <div class="container">
+            <div class="content-wrapper c-tnnb">
+                
+
+
+
+
+
+
+
+                <div class="col-lg-12 c-eesd c-eesd--mod">
+
+
+    <div class="rowmargin c-jwxp">
+        <div class="rowmargin">
+            <div class="content_element">
+                <div class="tx-m-slider" style="opacity: 0;">
+                    <div class="kk-slider-container">
+                        <div class="m-slider slider-special" role="toolbar">
+                            
+                                
+                                    
+                                        
+                                                <div class="match-height-desktop slick-element js-slide-0" data-slide="0" data-video="a4kqv-rPTzE" data-video-type="youtube">
+                                                    
+                                                    <div class="iframe-wrapper"><iframe class="html5-banner" frameborder="0" scrolling="no"
+                                                            data-src="/fileadmin/Hipp/Content_elements/Homepage/Slider_main/animacja_bio/index.html"
+                                                            src="/fileadmin/Hipp/Content_elements/Homepage/Slider_main/animacja_bio/index.html"></iframe></div>
+                                                    
+                                                        <img class="html5-image" src="/fileadmin/Hipp/Content_elements/Homepage/Slider_main/animacja_bio/baner-glowny-mobile_v1a.jpg" width="990" height="570" alt="" />
+                                                    
+                                                </div>
+                                            
+                                    
+                                    
+                                
+                            
+                                
+                                    
+                                    
+                                        
+                                                
+                                                        
+                                                                <div class="match-height-desktop slick-element js-slide-1" data-slide="1">
+                                                                    <a class="iframe-link" href="/mleko"></a>
+                                                                    <img src="/fileadmin/_processed_/7/b/csm_Mleko_HiPP_BIO_SG_06.2020_f4b48b16fe.jpg" width="990" height="442" alt="" />
+                                                                </div>
+                                                            
+                                                    
+                                            
+                                    
+                                
+                            
+                                
+                                    
+                                    
+                                        
+                                                
+                                                        
+                                                                <div class="match-height-desktop slick-element js-slide-2" data-slide="2">
+                                                                    <a class="iframe-link" href="/klub/zarejestruj-sie"></a>
+                                                                    <img src="/fileadmin/_processed_/0/3/csm_csm_partnerzy_KMM_od_maja_2020_b230f079e2_fd246b415a.jpg" width="990" height="442" alt="" />
+                                                                </div>
+                                                            
+                                                    
+                                            
+                                    
+                                
+                            
+                                
+                                    
+                                    
+                                        
+                                                
+                                                        
+                                                                <div class="match-height-desktop slick-element js-slide-3" data-slide="3">
+                                                                    <a class="iframe-link" href="/zywienie-0-1/rozszerzanie-diety/rozszerzanie-diety-praktyczne-wskazowki"></a>
+                                                                    <img src="/fileadmin/_processed_/c/b/csm_csm_baner_strona_glowna_60lat_c995a455d1_5e861bd91d.jpg" width="990" height="442" alt="" />
+                                                                </div>
+                                                            
+                                                    
+                                            
+                                    
+                                
+                            
+                        </div>
+                        <div class="embed-responsive-16by9">
+                            <div id="player"></div>
+                        </div>
+                    </div>
+                    <div class="kk-slider-nav-mobile">
+                        
+                            
+                                
+                                        <div class="m-slider-content" data-item-slide="js-slide-0">
+                                            <div class="html5-buttons">
+                                                <div class="m-slider-text text-center">
+                                                    
+                                                    
+                                                </div>
+                                                <div class="m-slider-buttons text-center">
+                                                    <button
+                                                        class="btn btn-default1 m-slider__video-button m-slider__video-button--start"
+                                                        data-open="Odtwórz wideo" data-close="Zamknij wideo"
+                                                        data-show-video="a4kqv-rPTzE">
+                                                        Zobacz film
+                                                    </button>
+                                                    
+                                                        <a href="/zywienie-0-1"
+                                                           class="btn btn-default1 m-slider-link-main">
+                                                            Zobacz więcej
+                                                        </a>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                            
+                        
+                            
+                                
+                                        <div class="m-slider-content" data-item-slide="js-slide-1">
+                                            <div class="html5-buttons">
+                                                <div class="m-slider-text text-center">
+                                                    
+                                                    
+                                                </div>
+                                                <div class="m-slider-buttons text-center">
+                                                    
+                                                        <a href="/mleko"
+                                                           class="btn btn-default1 m-slider-link-main">
+                                                            Dowiedz się więcej
+                                                        </a>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                            
+                        
+                            
+                                
+                                        <div class="m-slider-content" data-item-slide="js-slide-2">
+                                            <div class="html5-buttons">
+                                                <div class="m-slider-text text-center">
+                                                    
+                                                    
+                                                </div>
+                                                <div class="m-slider-buttons text-center">
+                                                    
+                                                        <a href="/klub/zarejestruj-sie"
+                                                           class="btn btn-default1 m-slider-link-main">
+                                                            Dowiedz się więcej
+                                                        </a>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                            
+                        
+                            
+                                
+                                        <div class="m-slider-content" data-item-slide="js-slide-3">
+                                            <div class="html5-buttons">
+                                                <div class="m-slider-text text-center">
+                                                    
+                                                    
+                                                </div>
+                                                <div class="m-slider-buttons text-center">
+                                                    
+                                                        <a href="/zywienie-0-1/rozszerzanie-diety/rozszerzanie-diety-praktyczne-wskazowki"
+                                                           class="btn btn-default1 m-slider-link-main">
+                                                            Dowiedz się więcej
+                                                        </a>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                            
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    
+
+
+
+
+<div>
+    <div class="content_element c-ubkl">
+        <div class="rowmargin tx-fnxproductcarousel">
+            
+                <div class="row">
+                    <h1 class="col-lg-12 clearfix text-center gradient_effect produkt-slider-headline">Produkty HiPP</h1>
+                </div>
+            
+
+            <div id="start-products" class="start-products" data-items="5">
+                <div class="slider center">
+                    
+                        
+                            <div>
+                                <div class="link-list">
+                                    
+                                            
+                                            <a class="link-list" href="/mleko/produkty">
+                                                <img data-site-link=""
+                                                     data-desc="<a href=&quot;/mleko/produkty&quot;><h2>Mleko</h2><p>Mleko dla niemowląt i dzieci HiPP COMBIOTIK®</p></a>"
+                                                     class="slick-img ing-1"
+                                                     title="Mleko"
+                                                     alt="Mleko"
+                                                     src="/fileadmin/Hipp/Content_elements/Homepage/Slider_products/csm_grupa_produktowa_Combiotik_ec8ebadb43.jpg"
+                                                     width="284" height="284">
+                                            </a>
+                                        
+                                </div>
+                            </div>
+                        
+                    
+                        
+                            <div>
+                                <div class="link-list">
+                                    
+                                            
+                                            <a class="link-list" href="/zywienie-0-1/produkty">
+                                                <img data-site-link=""
+                                                     data-desc="<a href=&quot;/zywienie-0-1/produkty&quot;><h2>Żywienie 0-1</h2><p>Produkty HiPP dla niemowląt, idealne na etapie rozszerzania diety oraz pierwszych ząbków</p></a>"
+                                                     class="slick-img ing-1"
+                                                     title="Żywienie 0-1"
+                                                     alt="Żywienie 0-1"
+                                                     src="/fileadmin/Hipp/Content_elements/Homepage/Slider_products/csm_Zywnosci_0-1_d81bfe5506.jpg"
+                                                     width="284" height="284">
+                                            </a>
+                                        
+                                </div>
+                            </div>
+                        
+                    
+                        
+                            <div>
+                                <div class="link-list">
+                                    
+                                            
+                                            <a class="link-list" href="/dzieci-1/produkty">
+                                                <img data-site-link=""
+                                                     data-desc="<a href=&quot;/dzieci-1/produkty&quot;><h2>Małe dzieci 1-3</h2><p>Ekologiczne dania, napoje oraz przekąski dla maluchów w wieku od 1 do 3 lat</p></a>"
+                                                     class="slick-img ing-1"
+                                                     title="Małe dzieci 1-3"
+                                                     alt="Małe dzieci 1-3"
+                                                     src="/fileadmin/Hipp/Content_elements/Homepage/Slider_products/csm_banner_karuzela_paella_batonik_v1a_1d42c58783.jpg"
+                                                     width="284" height="284">
+                                            </a>
+                                        
+                                </div>
+                            </div>
+                        
+                    
+                        
+                            <div>
+                                <div class="link-list">
+                                    
+                                            
+                                            <a class="link-list" href="/pielegnacja/produkty">
+                                                <img data-site-link=""
+                                                     data-desc="<a href=&quot;/pielegnacja/produkty&quot;><h2>Pielęgnacja</h2><p>Seria HiPP Babysanft powstała, aby w przypadku wyjątkowo wrażliwej skóry, od samego początku minimalizować ryzyko wystąpienia alergii</p></a>"
+                                                     class="slick-img ing-1"
+                                                     title="Pielęgnacja"
+                                                     alt="Pielęgnacja"
+                                                     src="/fileadmin/Hipp/Content_elements/Homepage/Slider_products/csm_Pflege_850x850px_ccdba4d1c1.jpg"
+                                                     width="284" height="284">
+                                            </a>
+                                        
+                                </div>
+                            </div>
+                        
+                    
+                        
+                            <div>
+                                <div class="link-list">
+                                    
+                                            
+                                            <a class="link-list" href="/ciaza/produkty">
+                                                <img data-site-link=""
+                                                     data-desc="<a href=&quot;/ciaza/produkty&quot;><h2>Ciąża</h2><p>HiPP Mamasanft to kosmetyki dla kobiet w ciąży i tuż po porodzie. </p></a>"
+                                                     class="slick-img ing-1"
+                                                     title="Ciąża"
+                                                     alt="Ciąża"
+                                                     src="/fileadmin/Hipp/Content_elements/Homepage/Slider_products/csm_PL9700-S_8bedf57252.jpg"
+                                                     width="284" height="284">
+                                            </a>
+                                        
+                                </div>
+                            </div>
+                        
+                    
+                </div>
+                <div class="text-center slick-product-description center-block">
+                    <a class="internal-link slick-product-link" href=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="content_element">
+    <div class="rowmargin">
+        <div class="hidden-xs">
+            <div class="rowmargin">
+                <div id="wide-grid-boxes">
+                    <h1>Porady HiPP</h1>
+                    <div class="col-lg-12 c-trhg">
+                        <div class="row">
+                            
+                                
+                                    <div class="col-lg-6 col-md-6 col-sm-6 cols">
+                                        <div class="box">
+                                            <h3>Mleko HiPP BIO</h3>
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                                    
+                                                            <a href="/mleko" title="Mleko HiPP BIO">
+                                                                <img title="Mleko HiPP BIO" alt="Mleko HiPP BIO" src="/fileadmin/_processed_/d/d/csm_01_mleczny_290x155_v1b_5035a26a22.jpg" width="210" height="110" />
+                                                            </a>
+                                                        
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                                    <p>Wybierając pierwsze mleko po karmieniu piersią chcesz robić wszystko właściwie. Przygotowaliśmy dla Was dużo porad. </p>
+                                                    <a href="/mleko" title="Mleko HiPP BIO" class="box-link">Przeczytaj więcej...</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                            
+                                
+                                    <div class="col-lg-6 col-md-6 col-sm-6 cols">
+                                        <div class="box">
+                                            <h3>Produkty HiPP BIO</h3>
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                                    
+                                                            <a href="/zywienie-0-1" title="Produkty HiPP BIO">
+                                                                <img title="Produkty HiPP BIO" alt="Produkty HiPP BIO" src="/fileadmin/_processed_/5/c/csm_02_zywienie_290x155_v1a_fa1516b9ca.jpg" width="210" height="110" />
+                                                            </a>
+                                                        
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                                    <p>Nadszedł czas na rozszerzanie diety. Wiele cennych wskazówek i przegląd naszych produktów BIO.</p>
+                                                    <a href="/zywienie-0-1" title="Produkty HiPP BIO" class="box-link">Sprawdź...</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                            
+                                
+                                    <div class="col-lg-6 col-md-6 col-sm-6 cols">
+                                        <div class="box">
+                                            <h3>Pielęgnacja HiPP</h3>
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                                    
+                                                            <a href="/pielegnacja" title="Pielęgnacja HiPP">
+                                                                <img title="Pielęgnacja HiPP" alt="Pielęgnacja HiPP" src="/fileadmin/_processed_/8/e/csm_04_kosmetyczny_290x155_v1a_69361b95a4.jpg" width="210" height="110" />
+                                                            </a>
+                                                        
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                                    <p>Delikatne produkty pielęgnacyjne dla całej rodziny, którym możesz zaufać. Porady dotyczące pielęgnacji.</p>
+                                                    <a href="/pielegnacja" title="Pielęgnacja HiPP" class="box-link">Sprawdź...</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                            
+                                
+                                    <div class="col-lg-6 col-md-6 col-sm-6 cols">
+                                        <div class="box">
+                                            <h3>Kupuj on-line</h3>
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                                    
+                                                            <a href="/sklep" title="Kupuj on-line" target="_blank">
+                                                                <img title="Kupuj on-line" alt="Kupuj on-line" src="/fileadmin/_processed_/9/1/csm_05_dodomku_3956bf47d5.jpg" width="210" height="110" />
+                                                            </a>
+                                                        
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                                    <p>Nasze produkty kupisz w dobrych cenach na hipp.dodomku.pl</p>
+                                                    <a href="/sklep" title="Kupuj on-line" target="_blank" class="box-link">Sprawdź...</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="wide-grid-boxes-mobile" class="visible-xs">
+            <h1>Porady HiPP</h1>
+            <div class="ml-n2 mr-n2">
+                
+                    <div class="accordion">
+                        <div class="accordion-group panel">
+                            <div class="accordion-heading">
+                                <a class="accordion-toggle accordion-toggle--change-icon" data-toggle="collapse" data-target="#accordion-cont-0" href="javascript:void(0);" aria-expanded="true">Mleko HiPP BIO</a>
+                            </div>
+                            <div class="accordion-body collapse show" id="accordion-cont-0" aria-expanded="true" style="">
+                                <div class="row">
+                                    <div class="col-xs-6 col-sm-4">
+                                        
+                                                <a href="/mleko" title="Mleko HiPP BIO">
+                                                    <img src="/fileadmin/Hipp/Content_elements/Homepage/Tips/01_mleczny_290x155_v1b.jpg" width="210" height="110" alt="Mleko HiPP BIO" title="Mleko HiPP BIO">
+                                                </a>
+                                            
+                                    </div>
+                                    <div class="col-xs-6 col-sm-8">
+                                        <p>Wybierając pierwsze mleko po karmieniu piersią chcesz robić wszystko właściwie. Przygotowaliśmy dla Was dużo porad. </p>
+                                        <a href="/mleko" title="Mleko HiPP BIO" class="box-link">Przeczytaj więcej...</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="accordion">
+                        <div class="accordion-group panel">
+                            <div class="accordion-heading">
+                                <a class="accordion-toggle accordion-toggle--change-icon" data-toggle="collapse" data-target="#accordion-cont-1" href="javascript:void(0);" aria-expanded="true">Produkty HiPP BIO</a>
+                            </div>
+                            <div class="accordion-body collapse show" id="accordion-cont-1" aria-expanded="true" style="">
+                                <div class="row">
+                                    <div class="col-xs-6 col-sm-4">
+                                        
+                                                <a href="/zywienie-0-1" title="Produkty HiPP BIO">
+                                                    <img src="/fileadmin/Hipp/Content_elements/Homepage/Tips/02_zywienie_290x155_v1a.jpg" width="210" height="110" alt="Produkty HiPP BIO" title="Produkty HiPP BIO">
+                                                </a>
+                                            
+                                    </div>
+                                    <div class="col-xs-6 col-sm-8">
+                                        <p>Nadszedł czas na rozszerzanie diety. Wiele cennych wskazówek i przegląd naszych produktów BIO.</p>
+                                        <a href="/zywienie-0-1" title="Produkty HiPP BIO" class="box-link">Sprawdź...</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="accordion">
+                        <div class="accordion-group panel">
+                            <div class="accordion-heading">
+                                <a class="accordion-toggle accordion-toggle--change-icon" data-toggle="collapse" data-target="#accordion-cont-2" href="javascript:void(0);" aria-expanded="true">Pielęgnacja HiPP</a>
+                            </div>
+                            <div class="accordion-body collapse show" id="accordion-cont-2" aria-expanded="true" style="">
+                                <div class="row">
+                                    <div class="col-xs-6 col-sm-4">
+                                        
+                                                <a href="/pielegnacja" title="Pielęgnacja HiPP">
+                                                    <img src="/fileadmin/Hipp/Content_elements/Homepage/Tips/04_kosmetyczny_290x155_v1a.jpg" width="210" height="110" alt="Pielęgnacja HiPP" title="Pielęgnacja HiPP">
+                                                </a>
+                                            
+                                    </div>
+                                    <div class="col-xs-6 col-sm-8">
+                                        <p>Delikatne produkty pielęgnacyjne dla całej rodziny, którym możesz zaufać. Porady dotyczące pielęgnacji.</p>
+                                        <a href="/pielegnacja" title="Pielęgnacja HiPP" class="box-link">Sprawdź...</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="accordion">
+                        <div class="accordion-group panel">
+                            <div class="accordion-heading">
+                                <a class="accordion-toggle accordion-toggle--change-icon" data-toggle="collapse" data-target="#accordion-cont-3" href="javascript:void(0);" aria-expanded="true">Kupuj on-line</a>
+                            </div>
+                            <div class="accordion-body collapse show" id="accordion-cont-3" aria-expanded="true" style="">
+                                <div class="row">
+                                    <div class="col-xs-6 col-sm-4">
+                                        
+                                                <a href="/sklep" title="Kupuj on-line" target="_blank">
+                                                    <img src="/fileadmin/Hipp/Content_elements/Homepage/Tips/05_dodomku.jpg" width="210" height="110" alt="Kupuj on-line" title="Kupuj on-line">
+                                                </a>
+                                            
+                                    </div>
+                                    <div class="col-xs-6 col-sm-8">
+                                        <p>Nasze produkty kupisz w dobrych cenach na hipp.dodomku.pl</p>
+                                        <a href="/sklep" title="Kupuj on-line" target="_blank" class="box-link">Sprawdź...</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="content_element">
+    <div class="c-iots">
+        <div class="about_section">
+            <hr>
+            <div class="row">
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                    <div class="more_about_img">
+                        
+                            <img id="sgnature2" style="margin-top: 0px; width=100%;" title="Dla kogo dzieci są najważniejsze, ten ponosi ogromną odpowiedzialność." alt="Dla kogo dzieci są najważniejsze, ten ponosi ogromną odpowiedzialność." src="/fileadmin/Hipp/Content_elements/Homepage/HiPP_infobox/footer_claus_stefan_hipp.jpg" width="600" height="446" />
+                        
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                    <div class="more_about_txt">
+                        <h5>Dla kogo dzieci są najważniejsze, ten ponosi ogromną odpowiedzialność.</h5>
+                        <p>Nasze ekologiczne produkty HiPP posiadają szczególną jakość - są wyprodukowane zgodnie z wytycznymi Rolnictwa Ekologicznego Unii Europejskiej bez modyfikacji genetycznej (bez GMO).</p>
+                        <p>
+                            
+                                <img id="sgnature2" style="margin-top: 0px;" title="Dla kogo dzieci są najważniejsze, ten ponosi ogromną odpowiedzialność." alt="Dla kogo dzieci są najważniejsze, ten ponosi ogromną odpowiedzialność." src="/fileadmin/Hipp/Content_elements/Homepage/HiPP_infobox/signatur_2.jpg" width="400" height="80" />
+                            
+                        </p>
+                        <a href="/kontakt/jakosc-bio" title="Dla kogo dzieci są najważniejsze, ten ponosi ogromną odpowiedzialność.">Więcej o jakości HiPP BIO przeczytasz tutaj</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</div>
+            </div>
+            
+
+<div class="social_list_anchor">
+    <ul class="list-unstyled list-inline footer_social">
+        
+            
+                <li>
+                    <a target="_blank" href="https://www.facebook.com/HiPP.Polska/?fref=ts">
+                        
+                            
+                                
+                                    <img src="/fileadmin/socialIcons/footer_facebook_icon.svg" width="35" height="35" alt="" />
+                                
+                            
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a target="_blank" href="https://www.youtube.com/channel/UCpgF_ykmxsyIp9cfJst14bQ">
+                        
+                            
+                                
+                                    <img src="/fileadmin/socialIcons/footer_youtube_icon.svg" width="35" height="35" alt="" />
+                                
+                            
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a target="_blank" href="https://www.instagram.com/hipp.polska/">
+                        
+                            
+                                
+                                    <img src="/fileadmin/socialIcons/footer_instagram_icon.png" width="35" height="35" alt="" />
+                                
+                            
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a target="_blank" href="https://hipp.pl/kontakt/kontakt/">
+                        
+                            
+                                
+                                    <img src="/fileadmin/socialIcons/footer_email_icon.svg" width="35" height="35" alt="" />
+                                
+                            
+                        
+                    </a>
+                </li>
+            
+        
+    </ul>
+    <div class="mob_padright">
+        <span class="page-footer-bar">
+           
+                
+                    
+                    <a href="/">www.hipp.pl</a>
+                
+           
+        </span>
+    </div>
+</div>
+
+
+
+        </div>
+        
+    </main>
+
+            
+
+<footer class="l-footer">
+    <div class="l-footer__inner">
+        <div class="l-footer__totop">
+            <a href="" class="l-footer__totop-link">
+                <img src="/typo3conf/ext/fnxlocal/Resources/Public/Hipp/2020/images/back_to_top.svg" alt="">
+                <span class="l-footer__totop-text">Do góry</span>
+            </a>
+        </div>
+        <div class="clearfix">
+            
+                
+                    <div class="footer_navigation text-center">
+                        <ul class="list-unstyled list-inline">
+                            
+                                
+                                    
+                                    <li>
+                                        <a href="/mleko">
+                                            HiPP Mleko
+                                        </a>
+                                    </li>
+                                
+                                    
+                                        <li>|</li>
+                                    
+                                    <li>
+                                        <a href="/zywienie-0-1">
+                                            HiPP Żywienie 0 - 1
+                                        </a>
+                                    </li>
+                                
+                                    
+                                        <li>|</li>
+                                    
+                                    <li>
+                                        <a href="/dzieci-1">
+                                            HiPP Dzieci 1+
+                                        </a>
+                                    </li>
+                                
+                                    
+                                        <li>|</li>
+                                    
+                                    <li>
+                                        <a href="/pielegnacja">
+                                            HiPP Pielęgnacja
+                                        </a>
+                                    </li>
+                                
+                                    
+                                        <li>|</li>
+                                    
+                                    <li>
+                                        <a href="/ciaza">
+                                            HiPP Ciąża
+                                        </a>
+                                    </li>
+                                
+                            
+                        </ul>
+                    </div>
+                
+                    <div class="footer_navigation text-center">
+                        <ul class="list-unstyled list-inline">
+                            
+                                
+                                    
+                                    <li>
+                                        <a href="/polityka-prywatnosci">
+                                            Polityka prywatności
+                                        </a>
+                                    </li>
+                                
+                                    
+                                        <li>|</li>
+                                    
+                                    <li>
+                                        <a href="/polityka-bezpieczenstwa">
+                                            Polityka bezpieczeństwa
+                                        </a>
+                                    </li>
+                                
+                                    
+                                        <li>|</li>
+                                    
+                                    <li>
+                                        <a href="/zasady-korzystania">
+                                            Zasady korzystania
+                                        </a>
+                                    </li>
+                                
+                                    
+                                        <li>|</li>
+                                    
+                                    <li>
+                                        <a href="/impresum">
+                                            Impresum
+                                        </a>
+                                    </li>
+                                
+                                    
+                                        <li>|</li>
+                                    
+                                    <li>
+                                        <a href="/kontakt">
+                                            Więcej o HiPP
+                                        </a>
+                                    </li>
+                                
+                                    
+                                        <li>|</li>
+                                    
+                                    <li>
+                                        <a href="/kontakt/kontakt">
+                                            Kontakt
+                                        </a>
+                                    </li>
+                                
+                            
+                        </ul>
+                    </div>
+                
+            
+            <div class="footer_navigation text-center">© HiPP 2020</div>
+        </div>
+    </div>
+</footer>
+
+
+
+        </div>
+    </div>
+</div>
+
+<script src="/typo3temp/assets/compressed/merged-f7f243a3198e8d51f340cf57c9303117-ff39e5e0523e1ff497d59c51e1d8dc09.js?1595602511" type="text/javascript"></script>
+
+
+
+</body>
+</html>

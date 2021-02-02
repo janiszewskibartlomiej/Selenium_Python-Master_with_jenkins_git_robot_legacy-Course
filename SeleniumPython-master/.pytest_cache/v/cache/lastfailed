@@ -1,1 +1,9 @@
-{}
+{
+  "data_driven_testing.py::test_validation[chrome_driver-enter_username_and_password0]": true,
+  "data_driven_testing.py::test_validation[chrome_driver-enter_username_and_password1]": true,
+  "data_driven_testing.py::test_validation[chrome_driver-enter_username_and_password2]": true,
+  "data_driven_testing.py::test_validation[firefox_driver-enter_username_and_password0]": true,
+  "data_driven_testing.py::test_validation[firefox_driver-enter_username_and_password1]": true,
+  "data_driven_testing.py::test_validation[firefox_driver-enter_username_and_password2]": true,
+  "test_FetchData.py::test_verify_registration": true
+}

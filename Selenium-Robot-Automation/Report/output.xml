@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.4 (Python 3.6.1 on win32)" generated="20180628 09:46:03.756">
+<suite id="s1" name="TestCases" source="C:\Users\TestingWorld\PycharmProjects\RobotAutomation\TestCases">
+<suite id="s1-s1" name="LoginTC" source="C:\Users\TestingWorld\PycharmProjects\RobotAutomation\TestCases\LoginTC">
+<suite id="s1-s1-s1" name="TC 001 Start Close Browser" source="C:\Users\TestingWorld\PycharmProjects\RobotAutomation\TestCases\LoginTC\TC_001_Start_Close_Browser.robot">
+<kw name="Before Each Test Suite" library="Resources1" type="setup">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Before Each Test Suite</arg>
+</arguments>
+<msg timestamp="20180628 09:46:04.631" level="INFO">Before Each Test Suite</msg>
+<status status="PASS" starttime="20180628 09:46:04.628" endtime="20180628 09:46:04.631"></status>
+</kw>
+<status status="PASS" starttime="20180628 09:46:04.627" endtime="20180628 09:46:04.632"></status>
+</kw>
+<test id="s1-s1-s1-t1" name="Robot First Test Case">
+<kw name="Start Browser and Maximize" library="Resources1" type="setup">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>http://www.thetestingworld.com/testings</arg>
+<arg>Chrome</arg>
+</arguments>
+<msg timestamp="20180628 09:46:04.637" level="INFO">Opening browser 'Chrome' to base url 'http://www.thetestingworld.com/testings'.</msg>
+<status status="PASS" starttime="20180628 09:46:04.636" endtime="20180628 09:46:11.246"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20180628 09:46:11.247" endtime="20180628 09:46:12.646"></status>
+</kw>
+<status status="PASS" starttime="20180628 09:46:04.635" endtime="20180628 09:46:12.647"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:fld_username</arg>
+<arg>Testing</arg>
+</arguments>
+<msg timestamp="20180628 09:46:12.651" level="INFO">Typing text 'Testing' into text field 'name:fld_username'.</msg>
+<status status="PASS" starttime="20180628 09:46:12.650" endtime="20180628 09:46:13.333"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:fld_email</arg>
+<arg>testingworldinida@gmail.com</arg>
+</arguments>
+<msg timestamp="20180628 09:46:13.336" level="INFO">Typing text 'testingworldinida@gmail.com' into text field 'name:fld_email'.</msg>
+<status status="PASS" starttime="20180628 09:46:13.335" endtime="20180628 09:46:14.196"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:fld_password</arg>
+<arg>123456</arg>
+</arguments>
+<msg timestamp="20180628 09:46:14.199" level="INFO">Typing text '123456' into text field 'name:fld_password'.</msg>
+<status status="PASS" starttime="20180628 09:46:14.198" endtime="20180628 09:46:14.522"></status>
+</kw>
+<kw name="Close Browser Window" library="Resources1" type="teardown">
+<kw name="Get Title" library="SeleniumLibrary">
+<doc>Returns the title of current page.</doc>
+<assign>
+<var>${Title}</var>
+</assign>
+<msg timestamp="20180628 09:46:14.538" level="INFO">${Title} = Login &amp; Sign Up Forms</msg>
+<status status="PASS" starttime="20180628 09:46:14.525" endtime="20180628 09:46:14.538"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${Title}</arg>
+</arguments>
+<msg timestamp="20180628 09:46:14.540" level="INFO">Login &amp; Sign Up Forms</msg>
+<status status="PASS" starttime="20180628 09:46:14.539" endtime="20180628 09:46:14.540"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20180628 09:46:14.540" endtime="20180628 09:46:16.758"></status>
+</kw>
+<status status="PASS" starttime="20180628 09:46:14.523" endtime="20180628 09:46:16.758"></status>
+</kw>
+<tags>
+<tag>ALL_TC</tag>
+<tag>Smoke</tag>
+</tags>
+<status status="PASS" starttime="20180628 09:46:04.632" endtime="20180628 09:46:16.760" critical="yes"></status>
+</test>
+<test id="s1-s1-s1-t2" name="Robot Next Test Case">
+<kw name="Start Browser and Maximize" library="Resources1" type="setup">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>http://www.thetestingworld.com/testings</arg>
+<arg>Chrome</arg>
+</arguments>
+<msg timestamp="20180628 09:46:16.781" level="INFO">Opening browser 'Chrome' to base url 'http://www.thetestingworld.com/testings'.</msg>
+<status status="PASS" starttime="20180628 09:46:16.780" endtime="20180628 09:46:23.049"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20180628 09:46:23.052" endtime="20180628 09:46:24.632"></status>
+</kw>
+<status status="PASS" starttime="20180628 09:46:16.777" endtime="20180628 09:46:24.633"></status>
+</kw>
+<kw name="Select Radio Button" library="SeleniumLibrary">
+<doc>Sets radio button group ``group_name`` to ``value``.</doc>
+<arguments>
+<arg>add_type</arg>
+<arg>office</arg>
+</arguments>
+<msg timestamp="20180628 09:46:24.640" level="INFO">Selecting 'office' from radio button 'add_type'.</msg>
+<status status="PASS" starttime="20180628 09:46:24.638" endtime="20180628 09:46:24.999"></status>
+</kw>
+<kw name="Close Browser Window" library="Resources1" type="teardown">
+<kw name="Get Title" library="SeleniumLibrary">
+<doc>Returns the title of current page.</doc>
+<assign>
+<var>${Title}</var>
+</assign>
+<msg timestamp="20180628 09:46:25.030" level="INFO">${Title} = Login &amp; Sign Up Forms</msg>
+<status status="PASS" starttime="20180628 09:46:25.003" endtime="20180628 09:46:25.030"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${Title}</arg>
+</arguments>
+<msg timestamp="20180628 09:46:25.032" level="INFO">Login &amp; Sign Up Forms</msg>
+<status status="PASS" starttime="20180628 09:46:25.031" endtime="20180628 09:46:25.032"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20180628 09:46:25.032" endtime="20180628 09:46:27.310"></status>
+</kw>
+<status status="PASS" starttime="20180628 09:46:25.000" endtime="20180628 09:46:27.310"></status>
+</kw>
+<tags>
+<tag>ALL_TC</tag>
+<tag>DFLT</tag>
+</tags>
+<status status="PASS" starttime="20180628 09:46:16.768" endtime="20180628 09:46:27.312" critical="yes"></status>
+</test>
+<kw name="After Each Test Suite" library="Resources1" type="teardown">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>After Each Test Suite</arg>
+</arguments>
+<msg timestamp="20180628 09:46:27.324" level="INFO">After Each Test Suite</msg>
+<status status="PASS" starttime="20180628 09:46:27.323" endtime="20180628 09:46:27.324"></status>
+</kw>
+<status status="PASS" starttime="20180628 09:46:27.322" endtime="20180628 09:46:27.325"></status>
+</kw>
+<doc>This File having testcase of testing ABC Functionality</doc>
+<status status="PASS" starttime="20180628 09:46:03.923" endtime="20180628 09:46:27.325"></status>
+</suite>
+<suite id="s1-s1-s2" name="TC 002 Start Close Browser" source="C:\Users\TestingWorld\PycharmProjects\RobotAutomation\TestCases\LoginTC\TC_002_Start_Close_Browser.robot">
+<test id="s1-s1-s2-t1" name="Robot Second Test Case">
+<kw name="Start Browser and Maximize" library="Resources1" type="setup">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>http://www.thetestingworld.com/testings</arg>
+<arg>Chrome</arg>
+</arguments>
+<msg timestamp="20180628 09:46:27.374" level="INFO">Opening browser 'Chrome' to base url 'http://www.thetestingworld.com/testings'.</msg>
+<status status="PASS" starttime="20180628 09:46:27.373" endtime="20180628 09:46:33.444"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20180628 09:46:33.445" endtime="20180628 09:46:34.984"></status>
+</kw>
+<status status="PASS" starttime="20180628 09:46:27.371" endtime="20180628 09:46:34.985"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:fld_username</arg>
+<arg>Testing</arg>
+</arguments>
+<msg timestamp="20180628 09:46:34.993" level="INFO">Typing text 'Testing' into text field 'name:fld_username'.</msg>
+<status status="PASS" starttime="20180628 09:46:34.991" endtime="20180628 09:46:35.622"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:fld_email</arg>
+<arg>testingworldinida@gmail.com</arg>
+</arguments>
+<msg timestamp="20180628 09:46:35.625" level="INFO">Typing text 'testingworldinida@gmail.com' into text field 'name:fld_email'.</msg>
+<status status="PASS" starttime="20180628 09:46:35.624" endtime="20180628 09:46:36.573"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:fld_password</arg>
+<arg>123456</arg>
+</arguments>
+<msg timestamp="20180628 09:46:36.575" level="INFO">Typing text '123456' into text field 'name:fld_password'.</msg>
+<status status="PASS" starttime="20180628 09:46:36.574" endtime="20180628 09:46:36.886"></status>
+</kw>
+<kw name="Close Browser Window" library="Resources1" type="teardown">
+<kw name="Get Title" library="SeleniumLibrary">
+<doc>Returns the title of current page.</doc>
+<assign>
+<var>${Title}</var>
+</assign>
+<msg timestamp="20180628 09:46:36.909" level="INFO">${Title} = Login &amp; Sign Up Forms</msg>
+<status status="PASS" starttime="20180628 09:46:36.889" endtime="20180628 09:46:36.909"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${Title}</arg>
+</arguments>
+<msg timestamp="20180628 09:46:36.911" level="INFO">Login &amp; Sign Up Forms</msg>
+<status status="PASS" starttime="20180628 09:46:36.910" endtime="20180628 09:46:36.911"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20180628 09:46:36.912" endtime="20180628 09:46:39.221"></status>
+</kw>
+<status status="PASS" starttime="20180628 09:46:36.888" endtime="20180628 09:46:39.221"></status>
+</kw>
+<tags>
+<tag>ALL_TC</tag>
+<tag>DFLT</tag>
+</tags>
+<status status="PASS" starttime="20180628 09:46:27.368" endtime="20180628 09:46:39.222" critical="yes"></status>
+</test>
+<test id="s1-s1-s2-t2" name="Robot Second Next Test Case">
+<kw name="Start Browser and Maximize" library="Resources1" type="setup">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>http://www.thetestingworld.com/testings</arg>
+<arg>Chrome</arg>
+</arguments>
+<msg timestamp="20180628 09:46:39.233" level="INFO">Opening browser 'Chrome' to base url 'http://www.thetestingworld.com/testings'.</msg>
+<status status="PASS" starttime="20180628 09:46:39.232" endtime="20180628 09:46:45.255"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20180628 09:46:45.256" endtime="20180628 09:46:46.690"></status>
+</kw>
+<status status="PASS" starttime="20180628 09:46:39.230" endtime="20180628 09:46:46.691"></status>
+</kw>
+<kw name="Select Radio Button" library="SeleniumLibrary">
+<doc>Sets radio button group ``group_name`` to ``value``.</doc>
+<arguments>
+<arg>add_type</arg>
+<arg>office</arg>
+</arguments>
+<msg timestamp="20180628 09:46:46.694" level="INFO">Selecting 'office' from radio button 'add_type'.</msg>
+<status status="PASS" starttime="20180628 09:46:46.692" endtime="20180628 09:46:47.204"></status>
+</kw>
+<kw name="Close Browser Window" library="Resources1" type="teardown">
+<kw name="Get Title" library="SeleniumLibrary">
+<doc>Returns the title of current page.</doc>
+<assign>
+<var>${Title}</var>
+</assign>
+<msg timestamp="20180628 09:46:47.235" level="INFO">${Title} = Login &amp; Sign Up Forms</msg>
+<status status="PASS" starttime="20180628 09:46:47.209" endtime="20180628 09:46:47.235"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${Title}</arg>
+</arguments>
+<msg timestamp="20180628 09:46:47.237" level="INFO">Login &amp; Sign Up Forms</msg>
+<status status="PASS" starttime="20180628 09:46:47.236" endtime="20180628 09:46:47.237"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20180628 09:46:47.238" endtime="20180628 09:46:49.490"></status>
+</kw>
+<status status="PASS" starttime="20180628 09:46:47.206" endtime="20180628 09:46:49.491"></status>
+</kw>
+<tags>
+<tag>ALL_TC</tag>
+<tag>Regression</tag>
+</tags>
+<status status="PASS" starttime="20180628 09:46:39.227" endtime="20180628 09:46:49.492" critical="yes"></status>
+</test>
+<doc>This File having testcase of testing ABC Functionality</doc>
+<status status="PASS" starttime="20180628 09:46:27.346" endtime="20180628 09:46:49.504"></status>
+</suite>
+<status status="PASS" starttime="20180628 09:46:03.909" endtime="20180628 09:46:49.524"></status>
+</suite>
+<suite id="s1-s2" name="RegistrationTC" source="C:\Users\TestingWorld\PycharmProjects\RobotAutomation\TestCases\RegistrationTC">
+<suite id="s1-s2-s1" name="TC 003 Start Close Browser" source="C:\Users\TestingWorld\PycharmProjects\RobotAutomation\TestCases\RegistrationTC\TC_003_Start_Close_Browser.robot">
+<test id="s1-s2-s1-t1" name="Robot Third Test Case">
+<kw name="Start Browser and Maximize" library="Resources1" type="setup">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>http://www.thetestingworld.com/testings</arg>
+<arg>Chrome</arg>
+</arguments>
+<msg timestamp="20180628 09:46:49.581" level="INFO">Opening browser 'Chrome' to base url 'http://www.thetestingworld.com/testings'.</msg>
+<status status="PASS" starttime="20180628 09:46:49.580" endtime="20180628 09:46:55.864"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20180628 09:46:55.865" endtime="20180628 09:46:57.249"></status>
+</kw>
+<status status="PASS" starttime="20180628 09:46:49.579" endtime="20180628 09:46:57.250"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:fld_username</arg>
+<arg>Testing</arg>
+</arguments>
+<msg timestamp="20180628 09:46:57.254" level="INFO">Typing text 'Testing' into text field 'name:fld_username'.</msg>
+<status status="PASS" starttime="20180628 09:46:57.252" endtime="20180628 09:46:57.937"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:fld_email</arg>
+<arg>testingworldinida@gmail.com</arg>
+</arguments>
+<msg timestamp="20180628 09:46:57.939" level="INFO">Typing text 'testingworldinida@gmail.com' into text field 'name:fld_email'.</msg>
+<status status="PASS" starttime="20180628 09:46:57.938" endtime="20180628 09:46:58.874"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:fld_password</arg>
+<arg>123456</arg>
+</arguments>
+<msg timestamp="20180628 09:46:58.877" level="INFO">Typing text '123456' into text field 'name:fld_password'.</msg>
+<status status="PASS" starttime="20180628 09:46:58.876" endtime="20180628 09:46:59.230"></status>
+</kw>
+<kw name="Close Browser Window" library="Resources1" type="teardown">
+<kw name="Get Title" library="SeleniumLibrary">
+<doc>Returns the title of current page.</doc>
+<assign>
+<var>${Title}</var>
+</assign>
+<msg timestamp="20180628 09:46:59.253" level="INFO">${Title} = Login &amp; Sign Up Forms</msg>
+<status status="PASS" starttime="20180628 09:46:59.234" endtime="20180628 09:46:59.253"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${Title}</arg>
+</arguments>
+<msg timestamp="20180628 09:46:59.255" level="INFO">Login &amp; Sign Up Forms</msg>
+<status status="PASS" starttime="20180628 09:46:59.254" endtime="20180628 09:46:59.256"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20180628 09:46:59.257" endtime="20180628 09:47:01.485"></status>
+</kw>
+<status status="PASS" starttime="20180628 09:46:59.232" endtime="20180628 09:47:01.485"></status>
+</kw>
+<tags>
+<tag>Sanity</tag>
+</tags>
+<status status="PASS" starttime="20180628 09:46:49.575" endtime="20180628 09:47:01.487" critical="yes"></status>
+</test>
+<test id="s1-s2-s1-t2" name="Robot Third Next Test Case">
+<kw name="Start Browser and Maximize" library="Resources1" type="setup">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>http://www.thetestingworld.com/testings</arg>
+<arg>Chrome</arg>
+</arguments>
+<msg timestamp="20180628 09:47:01.500" level="INFO">Opening browser 'Chrome' to base url 'http://www.thetestingworld.com/testings'.</msg>
+<status status="PASS" starttime="20180628 09:47:01.499" endtime="20180628 09:47:08.382"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20180628 09:47:08.382" endtime="20180628 09:47:09.668"></status>
+</kw>
+<status status="PASS" starttime="20180628 09:47:01.498" endtime="20180628 09:47:09.668"></status>
+</kw>
+<kw name="Select Radio Button" library="SeleniumLibrary">
+<doc>Sets radio button group ``group_name`` to ``value``.</doc>
+<arguments>
+<arg>add_type</arg>
+<arg>office</arg>
+</arguments>
+<msg timestamp="20180628 09:47:09.671" level="INFO">Selecting 'office' from radio button 'add_type'.</msg>
+<status status="PASS" starttime="20180628 09:47:09.670" endtime="20180628 09:47:09.939"></status>
+</kw>
+<kw name="Close Browser Window" library="Resources1" type="teardown">
+<kw name="Get Title" library="SeleniumLibrary">
+<doc>Returns the title of current page.</doc>
+<assign>
+<var>${Title}</var>
+</assign>
+<msg timestamp="20180628 09:47:09.952" level="INFO">${Title} = Login &amp; Sign Up Forms</msg>
+<status status="PASS" starttime="20180628 09:47:09.941" endtime="20180628 09:47:09.952"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${Title}</arg>
+</arguments>
+<msg timestamp="20180628 09:47:09.953" level="INFO">Login &amp; Sign Up Forms</msg>
+<status status="PASS" starttime="20180628 09:47:09.952" endtime="20180628 09:47:09.953"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20180628 09:47:09.953" endtime="20180628 09:47:12.116"></status>
+</kw>
+<status status="PASS" starttime="20180628 09:47:09.940" endtime="20180628 09:47:12.117"></status>
+</kw>
+<tags>
+<tag>Regression</tag>
+<tag>Testing</tag>
+</tags>
+<status status="PASS" starttime="20180628 09:47:01.495" endtime="20180628 09:47:12.118" critical="yes"></status>
+</test>
+<doc>This File having testcase of testing ABC Functionality</doc>
+<status status="PASS" starttime="20180628 09:46:49.552" endtime="20180628 09:47:12.130"></status>
+</suite>
+<status status="PASS" starttime="20180628 09:46:49.539" endtime="20180628 09:47:12.154"></status>
+</suite>
+<status status="PASS" starttime="20180628 09:46:03.764" endtime="20180628 09:47:12.178"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="6" fail="0">Critical Tests</stat>
+<stat pass="6" fail="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="4" fail="0">ALL_TC</stat>
+<stat pass="2" fail="0">DFLT</stat>
+<stat pass="2" fail="0">Regression</stat>
+<stat pass="1" fail="0">Sanity</stat>
+<stat pass="1" fail="0">Smoke</stat>
+<stat pass="1" fail="0">Testing</stat>
+</tag>
+<suite>
+<stat pass="6" fail="0" id="s1" name="TestCases">TestCases</stat>
+<stat pass="4" fail="0" id="s1-s1" name="LoginTC">TestCases.LoginTC</stat>
+<stat pass="2" fail="0" id="s1-s1-s1" name="TC 001 Start Close Browser">TestCases.LoginTC.TC 001 Start Close Browser</stat>
+<stat pass="2" fail="0" id="s1-s1-s2" name="TC 002 Start Close Browser">TestCases.LoginTC.TC 002 Start Close Browser</stat>
+<stat pass="2" fail="0" id="s1-s2" name="RegistrationTC">TestCases.RegistrationTC</stat>
+<stat pass="2" fail="0" id="s1-s2-s1" name="TC 003 Start Close Browser">TestCases.RegistrationTC.TC 003 Start Close Browser</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
