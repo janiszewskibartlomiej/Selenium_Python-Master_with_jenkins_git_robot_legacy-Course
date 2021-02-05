@@ -674,6 +674,12 @@ set Path=%PYTHON_HOME%;%Path%
 rmdir /s /q Reports   # usuwamy aby dane sie nie dopisywaly w danym buildzie
 rmdir /s /q allure-report  # usuwamy aby dane sie nie dopisywaly w danym buildzie
 pip install -r requirements-test.txt
+pip install allure-robotframework
+
+robot  --listener allure-robotframework TestCases
+
+exit 0 # konczy bild jest potrzeny bo potem morze byc generowany raport
+----
 cd test_scenarios
 
 pytest --alluredir=.Reports
