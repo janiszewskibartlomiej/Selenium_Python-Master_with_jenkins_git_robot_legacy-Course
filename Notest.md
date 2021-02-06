@@ -737,6 +737,13 @@ value = jsonpath.jsonpath(json_response, 'search_key')
 response = requests.delete(url)
 response.status_code
 
+# post
+
+file = open('....json' 'r')
+json_input = file.read()
+request_json = json.loads(json_path)
+
+response = requests.post(url, request_json)
 
 
 
