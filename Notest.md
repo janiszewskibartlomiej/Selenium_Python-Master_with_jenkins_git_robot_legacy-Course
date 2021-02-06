@@ -700,5 +700,44 @@ https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html
 
 wzorce w resources/plik.robot
 
+26 pip install  requests, jsonpath
+
+#send get request
+response = requests.get(url)
+
+# response content
+response.content
+
+response.headers
+response.headers.get('Date')    #get specific header
+response.headers.get('Server')
+
+
+# Fetch cookies
+response.cookies
+
+# fetch encoding
+response.encoding
+
+# time response
+response.elapsed
+
+response.status_code
+
+# convert to json form
+
+json_response = json.loads(response.text)
+
+# Featch value using json path
+pip install jsonpath
+
+value = jsonpath.jsonpath(json_response, 'search_key')
+
+# delete
+response = requests.delete(url)
+response.status_code
+
+
+
 
 ```
