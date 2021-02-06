@@ -745,6 +745,9 @@ request_json = json.loads(json_path)
 
 response = requests.post(url, request_json)
 
+# update
+odczyt i parsowanie takie jak post  jedynie moetode zmiemiamy na `put`
 
+response = requests.put(url, request_json)
 
 ```
