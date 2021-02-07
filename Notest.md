@@ -45,6 +45,13 @@ id, name, class name, css, xpath, link, REgEx
 5. bibliotek faker do generowania danych personlanych 
  from faker import Faker
  
+ faker = Faker()
+ faker.name()
+ faker.email()
+ faker.city()
+ faker.pnonenumber()
+ 
+ 
 6. range od 10 do 1 - decrement
     for i in range(10,0, -1)
        print(i)
